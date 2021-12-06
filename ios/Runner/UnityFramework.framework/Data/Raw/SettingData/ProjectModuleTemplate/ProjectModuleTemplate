@@ -1,0 +1,86 @@
+{
+  "point_card": {
+    "main_type": "module",
+    "obj_type": "2d",
+    
+    "transform": [
+      "0,0,0",
+      "0,0,0",
+      "1,1,1"
+    ],
+    "rect_transform": [
+      "0,0,0",
+      "720,1280",
+      "0.5,0.5",
+      "0.5,0.5",
+      "0.5,0.5"
+    ],
+    "active": true,
+    "sub_type": "point_card",
+    "obj_id": "",
+    "obj_parent_id": "",
+    "res_name": "PointCard",
+    "res_id": "point_card",
+    "res_url": "",
+    "default_shader_name": "",
+    "project_module": [
+      {
+        "points": [
+          {
+            "scale_persent": 100,
+            "target_id": "1541410565.3188.4116601390",
+            "target_img_url": "https://mifly0makar0assets.s3-accelerate.amazonaws.com/user-target/miflytest2/15414105482908723.jpg",
+            "uncollected_point_url": "",
+            "anchor_pos": "0,0",
+            "collected_point_url": ""
+          }
+        ],
+        "card_id": "YpVOCCUOeeElDCKmiflytest2190126",
+        "name": "PointCardProjectModule",
+        "bg_image_url": "",
+        "reward_password": "",
+        "can_reward_point_count": 1
+      }
+    ]
+  },
+  
+  "scratch_card": {
+    "main_type": "module",
+    "sub_type": "scratch_card",
+    "obj_type": "2d",
+    "res_id": "scratch_card",
+    "res_name": "ScratchCard",
+    "res_url": "",
+    "obj_id": "",
+    "obj_parent_id": "",
+    "default_shader_name": "",
+    "active": true,
+    "transform": [
+      "0,0,0",
+      "0,0,0",
+      "1,1,1"
+    ],
+    "rect_transform": [
+      "0,-258,0",
+      "528,504",
+      "0.5,0.5",
+      "0.5,0.5",
+      "0.5,0.5"
+    ],
+    "project_module": [
+      {
+        "name": "ScratchCardModule",
+        "card_id": "PCsqeLuiQCRrcjiokaydeep190516",
+        "scratch_image_url": "",
+        "password": "",
+        "award_list": [
+          {
+            "image_url": "",
+            "probability": 20,
+            "scale_type": 1
+          }
+        ]
+      }
+    ]
+  }
+}

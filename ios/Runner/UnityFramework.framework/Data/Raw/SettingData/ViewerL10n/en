@@ -1,0 +1,151 @@
+{
+  "English": {
+    "TestPanel":
+    {
+      "Text1":"Test text1",
+      "Text2":"Test text2",
+      "Text3":"Test text3",
+      "Text4":"Test text4"
+    },
+    "ARGamePlayController_NewUI": {
+      "loading_text": "Loading",
+      "input_id_error": "Input ID error, or not avilable",
+      "no_network": "No network",
+      "exceed_max_scan_times": "This ID exceed max scan times",
+      "proj_id_not_exist": "This project is not existed"
+    },
+    "ClickToStartScaningPanel": {
+      "hint": "Click to scan",
+      
+    },
+    "InputIdPanel": {
+      "hint_input_id_here_text": "Please input ID",
+      "now_user_id_text_prefix": "Current ID",
+      "place_holder": "Input ID",
+      "cancel_text": "Cancel",
+      "confirm_text": "Confirm",
+      "input_id_error": "Input ID error, or not avilable"
+    },
+    "NewestInfoPanel": {
+      "title": "News",
+      "activity_title": "Activities",
+      "ar_like_hint": "Like it!",
+      "ar_load_more_hint": "Load more",
+      "ar_no_data_hint": "No data",
+      "vr_like_hint": "Like it!",
+      "vr_load_more_hint": "Load more",
+      "vr_no_data_hint": "No data",
+      "open_activity": "Play it",
+      "no_data": "No Data"
+    },
+    "InputIdHistoryPanel": {
+      "hint_here_is_empty": "No data",
+      "title_text": "History",
+      "add_to_favorite_hint": "Like it!"
+    },
+    "MyFavoritesPanel": {
+      "title_text": "Favorites",
+      "project_title": "Project",
+      "add_user_id": "Add ID",
+      "hint_here_is_empty": "No data",
+      "now_user_id_text_prefix": "Current ID:",
+      "placeholder": "Input specified ID here",
+      "cancel_text": "Cancel",
+      "confim_text": "Confirm",
+      "add_to_favorite_hint": "Like it!",
+      "no_data": "No Data"
+    },
+    "AboutMakarPanel": {
+      "title_text": "About MAKAR"
+    },
+    "SearchIdPanel": {
+      "placeholder": "Input ID here",
+      "like_text": "Like",
+      "already_like_text": "Liked",
+      "not_found_hint": "Cannot find this ID\nPlease check and try again",
+      "ar_add_to_favorite": "Like it!",
+      "vr_add_to_favorite": "Like it!",
+      "no_data": "No Data"
+    },
+    "BottomBarNew1": {
+      "search_id_text": "ID Search",
+      "search_id_text_focus": "ID Search",
+      "newest_activities_text": "News",
+      "newest_activities_text_focus": "News",
+      "history_text": "History",
+      "history_text_focus": "History",
+      "my_favorite_text": "Favorites",
+      "my_favorite_text_focus": "Favorites",
+      "about_makar_text": "About MAKAR",
+      "about_makar_text_focus": "About MAKAR"
+    },
+    "BottomBarNew2": {
+      "add_to_favorite_hint": "Like it!"
+    },
+    "ProjectDetailPanel": {
+      "open_project": "Play it"
+    },
+    "InputIdHistoryCell": {
+      "like_text": "Like",
+      "share_text": "Share",
+      "delete_text": "Delete",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "NewestARProjectCell": {
+      "like_text": "Like",
+      "share_text": "Share",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "NewestVRProjectCell": {
+      "like_text": "Like",
+      "share_text": "Share",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "UserARProjectCell": {
+      "like_text": "Like",
+      "share_text": "Share",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "UserVRProjectCell": {
+      "like_text": "Like",
+      "share_text": "Share",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "FavoriteProjectCell": {
+      "share_text": "Share",
+      "delete_text": "Delete",
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "FavoriteUserIdCell": {
+      "share_text": "Share",
+      "delete_text": "Delete"
+    },
+    "AddBehavPanel": {
+      "click_open_web_page": "click open web page",
+      "click_phone_call": "click phone call",
+      "click_send_email": "click send email",
+      "click_play_animation": "click play anim",
+      "reward_card": "reward card",
+      "transparent_video": "chroma video"
+    },
+    "CheckViewerVersion": {
+      "no_network": "No network"
+    },
+    "FavoriteUserIdPanel": {
+      "input_id_error": "Input ID error, or not avilable"
+    },
+    "ShareNowUserId": {
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "VRSceneUIPanel": {
+      "share_content": "Join 'MAKAR' now!\nUser ID:{0}\nEditor Windows: https://www.makerar.com/product_01.php\nEditor OSX: https://www.makerar.com/product_01.php\nViewer Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\nViewer iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "LoadingMsg": {
+      "loading_text": "Loading..."
+    },
+    "AboutContent": {
+      "about_descr1": "Identifying everything, creating for creation,\nwe believe that everyone is 'AR MAKAR'",
+      "about_descr2": "MAKAR created the augmented reality editing platform for Taiwan's first autonomy. The intuitive editing interface and in-house modeling group enable the self-creater to create an augmented reality interactive experience in 10 minutes, no longer relying on a professional design team. Open MAKAR's new visual browser and incorporate unexpected ideas into your life. \nNow, experience life begins with MAKAR."
+    }
+  }
+}

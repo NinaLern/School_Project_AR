@@ -1,0 +1,28 @@
+{
+    "ver" : "1",
+     
+    "ScratchCardBackground":  {
+        "main_type": "image",
+        "obj_type": "2d",
+        "sub_type": "png",
+        "obj_id": "",
+        "obj_parent_id": "",
+        "res_name": "ScratchCardBackground",
+        "res_id": "ScratchCardBackground",
+        "res_url": "DefaultResource/ProjectModule/ScratchCardBackground.png",
+        "default_shader_name": "",
+        "active": true,
+        "transform": [
+            "0,0,0",
+            "0,0,0",
+            "1,1,1"
+            ],
+        "rect_transform": [
+            "0,0,0",
+            "720,1280",
+            "0.5,0.5",
+            "0.5,0.5",
+            "0.5,0.5"
+        ]
+    }
+}

@@ -1,0 +1,150 @@
+{
+  "ChineseSimplified": {
+    "TestPanel":
+    {
+      "Text1": "测试文字1",
+      "Text2": "测试文字2",
+      "Text3": "测试文字3",
+      "Text4": "测试文字4"
+    },
+    "ARGamePlayController_NewUI": {
+      "loading_text": "载入中",
+      "input_id_error": "本ID不存在，或尚未开放查询",
+      "no_network": "无网路连线",
+      "exceed_max_scan_times": "此ID超过最大扫描次数",
+      "proj_id_not_exist": "不存在的专案"
+    },
+    "ClickToStartScaningPanel": {
+      "hint": "点击开始扫描"
+    },
+    "InputIdPanel": {
+      "hint_input_id_here_text": "请输入指定ID",
+      "now_user_id_text_prefix": "当前ID",
+      "place_holder": "输入ID",
+      "cancel_text": "取消",
+      "confirm_text": "确认",
+      "input_id_error": "本ID不存在，或尚未开放查询"
+    },
+    "NewestInfoPanel": {
+      "title": "最新动态",
+      "activity_title": "主题活动",
+      "ar_like_hint": "已加入收藏",
+      "ar_load_more_hint": "载入更多",
+      "ar_no_data_hint": "没有资料了",
+      "vr_like_hint": "已加入收藏",
+      "vr_load_more_hint": "载入更多",
+      "vr_no_data_hint": "没有资料了",
+      "open_activity": "开启体验",
+      "no_data": "没有资料"
+    },
+    "InputIdHistoryPanel": {
+      "hint_here_is_empty": "没有资料",
+      "title_text": "历史记录",
+      "add_to_favorite_hint": "已加入收藏"
+    },
+    "MyFavoritesPanel": {
+      "title_text": "我的收藏",
+      "project_title": "专案",
+      "add_user_id": "新增ID",
+      "hint_here_is_empty": "没有资料",
+      "now_user_id_text_prefix": "当前ID:",
+      "placeholder": "请输入指定ID",
+      "cancel_text": "取消",
+      "confim_text": "确认",
+      "add_to_favorite_hint": "已加入收藏",
+      "no_data": "没有资料"
+    },
+    "AboutMakarPanel": {
+      "title_text": "关于MAKAR"
+    },
+    "SearchIdPanel": {
+      "placeholder": "请输入ID",
+      "like_text": "收藏",
+      "already_like_text": "已收藏",
+      "not_found_hint": "很抱歉，查无此ID。\n检查看看是否拼写错误～",
+      "ar_add_to_favorite": "已加入收藏",
+      "vr_add_to_favorite": "已加入收藏",
+      "no_data": "没有资料"
+    },
+    "BottomBarNew1": {
+      "search_id_text": "ID搜寻",
+      "search_id_text_focus": "ID搜寻",
+      "newest_activities_text": "最新动态",
+      "newest_activities_text_focus": "最新动态",
+      "history_text": "历史纪录",
+      "history_text_focus": "历史纪录",
+      "my_favorite_text": "我的收藏",
+      "my_favorite_text_focus": "我的收藏",
+      "about_makar_text": "关于MAKAR",
+      "about_makar_text_focus": "关于MAKAR"
+    },
+    "BottomBarNew2": {
+      "add_to_favorite_hint": "已加入收藏"
+    },
+    "ProjectDetailPanel": {
+      "open_project": "开启体验"
+    },
+    "InputIdHistoryCell": {
+      "like_text": "收藏",
+      "share_text": "分享",
+      "delete_text": "删除",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "NewestARProjectCell": {
+      "like_text": "收藏",
+      "share_text": "分享",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "NewestVRProjectCell": {
+      "like_text": "收藏",
+      "share_text": "分享",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "UserARProjectCell": {
+      "like_text": "收藏",
+      "share_text": "分享",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "UserVRProjectCell": {
+      "like_text": "收藏",
+      "share_text": "分享",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "FavoriteProjectCell": {
+      "share_text": "分享",
+      "delete_text": "删除",
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "FavoriteUserIdCell": {
+      "share_text": "分享",
+      "delete_text": "删除"
+    },
+    "AddBehavPanel": {
+      "click_open_web_page": "点击开启网页",
+      "click_phone_call": "点击拨打电话",
+      "click_send_email": "点击传送邮件",
+      "click_play_animation": "点击播放动作",
+      "reward_card": "集点卡",
+      "transparent_video": "去背影片"
+    },
+    "CheckViewerVersion": {
+      "no_network": "无网路连线"
+    },
+    "FavoriteUserIdPanel": {
+      "input_id_error": "本ID不存在，或尚未开放查询"
+    },
+    "ShareNowUserId": {
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "VRSceneUIPanel": {
+      "share_content": "一起加入'MAKAR'吧!\n我的ID:{0}\n编辑器 Windows: https://www.makerar.com/product_01.php\n编辑器 OSX: https://www.makerar.com/product_01.php\n浏览器 Android: https://play.google.com/store/apps/details?id=com.mifly.MakarViewerApp\n浏览器 iOS: https://itunes.apple.com/tw/app/makar/id1238600928?mt=8\n"
+    },
+    "LoadingMsg": {
+      "loading_text": "读取中..."
+    },
+    "AboutContent": {
+      "about_descr1": "识别万物，为创造而生，我们\n相信人人都是'AR MAKAR'",
+      "about_descr2": "MAKAR为台湾第一个自主化创建扩增实境编辑平台。直觉式编辑界面及内建模组功能，让自造者可以快速在10分钟内创建扩增实境互动体验，不再需要仰赖专业的设计团队。开启MAKAR新视代浏览器，将有意想不到的创意融入在你的生活周遭。\n现在，体验生活从MAKAR开始。"
+    }
+  }
+}

@@ -81,22 +81,22 @@ class MyStatelessWidget extends StatelessWidget {
                             decoration: const BoxDecoration(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(5)),
-                              color: Colors.white24,
+                              color: Colors.black,
                             ),
-                            width: 700,
+                            width: 800,
                             child: Column(
                               children: const [
                                 Text(
-                                  '展覽名稱',
+                                  '影像之後：湯瑪斯．魯夫1989-2020攝影作品展',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Text(
-                                  '展覽日期',
+                                  '2021/03/27 - 2021/07/04',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     fontSize: 14,

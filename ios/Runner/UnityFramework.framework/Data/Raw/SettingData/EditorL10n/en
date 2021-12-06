@@ -1,0 +1,894 @@
+{
+	"English":
+	{
+		"TestPanel":
+		{
+			"Text1":"Test text1",
+			"Text2":"Test text2",
+			"Text3":"Test text3",
+			"Text4":"Test text4"
+		},
+		"LoginPanel":
+		{
+			"enter_email":"Enter 'Email' or 'User ID'",
+			"enter_password":"Enter Password",
+			"remember_password":"Remember Password",
+			"enter_license":"license number(igonre)",
+			"bind_license":"Bind License",
+			"unbind_license":"Unbind License",
+			"login_btn":"Login",
+			"signup_text":" ",
+			"signup_btn":"Signup",
+			"forget_password":"forget password?",
+			"login_info_1":"AR is being widely applied \nin any of sectors",
+			"login_info_2":"Easy to create by just couple of click",
+			"login_info_3":"Designed for non-technical user",
+			"login_info_4":"Develop for free, buy if needed ?"
+		},
+		"ARContent":
+		{
+			"ar_manager_project_off":"MAKAR",
+			"ar_manager_project_on":"Create AR",
+			"ar_manager_target_off":"Target",
+			"ar_manager_target_on":"Target",
+			"ar_manager_resource_off":"Resource",
+			"ar_manager_resource_on":"Resource",
+			"ar_menu_project_title": "Create AR Project",
+			"ar_menu_project_no_data_tips": "Click left button\nto create new MAKAR project!",
+			"ar_menu_target_title": "Target",
+			"ar_menu_target_no_data_tips": "No target image uploaded!\nClick left button to add one",
+			"ar_menu_resource_title": "Resource",
+			"ar_menu_resource_no_data_tips_image": "No images uploaded!\nClick left button to upload images",
+			"ar_menu_resource_no_data_tips_model": "No model uploaded!\nClick left button to upload models",
+			"ar_menu_resource_no_data_tips_video": "No video uploaded!\nClick left button to upload videos",
+			"ar_menu_resource_no_data_tips_audio": "No audio uploaded!\nClick left button to upload audios",
+			"category_custom": "Mine",
+			"category_online": "Online",
+			"resource_add_btn": "Add",
+			"resource_add_btn_online": "Add",
+			"downloadtext": "Download All Resource",
+			"online_res_loading_text": "Loading"
+		},
+		"UnitPreviewPrefab_Project":
+		{
+			"reco_score": "Score"
+		},
+		"UnitPreviewPrefab_Target":
+		{
+			"reco_score": "Score",
+			"target_using": "Using"
+		},
+		"UserDataInfoPanel(Clone)":
+		{
+			"free": "Free",
+			"free_cert": "General",
+			"subscription": "Subscription",
+			"custom": "Business",
+			"male": "male",
+			"female": "female",
+			"upgrade_btn": "Upgrade",
+			"info_target": "Target Count",
+			"info_scan_times": "Scan Times",
+			"info_remaining_capacity": "Remaining Capacity",
+			"title_account": "Email",
+			"title_birthday": "Birthday",
+			"title_gender": "Gender",
+			"title_job": "Job",
+			"title_country": "City",
+			"title_phone": "Phone",
+			"license_title": "Device Binding",
+			"license_target_count": "License Target Count",
+			"license_scan_times": "License Scan Times",
+			"license_resource_capacity": "License Resource Capacity",
+			"license_expired_date": "License Expired Date",
+			"user_type_free": "Free member",
+			"user_type_free_cert": "Certified member",
+			"user_type_subscription": "Paid member",
+			"user_type_custom": "Custom member",
+			"member_info": "Member Info",
+			"usage_amount": "Usage Amount",
+			"detail": "Detail",
+			"expired": "Expired",
+			"extend": "Extend",
+			"title_name": "Name"
+		},
+		"Dialogue_AddNewProject(Clone)":
+		{
+			"dialogue_title": "Save Project",
+			"dialogue_content": "Push project and enjoy your AR in MAKAR app",
+			"cancel_btn": "Cancel",
+			"save_btn": "Push",
+			"post_on_news_label": "Post on News in App",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_AlarmAnything(Clone)":
+		{
+			"ok_btn": "ok"
+		},
+		"Dialogue_ChangeTarget(Clone)":
+		{
+			"dialogue_title": "Change target and information",
+			"select_file_btn": "Upload",
+			"tip_text":"＊.JPG only(RGB, 72dpi)\n＊1 MB limited\n＊Image resolution need more than 120x120",
+			"inputfield_project_name": "PRoject Name",
+			"project_name_tips": "＊limited to 12 word",
+			"project_description_inputfield": "Project Description",
+			"project_description_tips": "＊limited to 20 word",
+			"no_data_tips": "No Targets uploaded.\nClick left button to make one",
+			"update_btn": "Update",
+			"loading_title": "Please Wait",
+			"target_selection_lock_text": "＊'PointCard' project change targets in 'Edit Mode' only.",
+			"post_on_news_label": "Post on News in App"
+		},
+		"Dialogue_ChooseProjectModule(Clone)":
+		{
+			"dialogue_title": "Select Module",
+			"history_module_title": "History",
+			"history_module_title_selected": "History",
+			"business_module_title": "Business",
+			"business_module_title_selected": "Business",
+			"no_preview_module_tips": "No Project.\nClick 'Next' button to make one",
+			"next_btn": "Next"
+		},
+		"UnitData_NoModule(Clone)":
+		{
+			"no_module": "No Module"
+		},
+		"UnitData_NoModule":
+		{
+			"no_module": "No Module"
+		},
+		"UnitOption_PointCard":
+		{
+			"pointcard_name": "PointCard"
+		},
+		"UnitOption_PointCard(Clone)":
+		{
+			"pointcard_name": "PointCard"
+		},
+		"UnitOption_ScratchCard":
+        {
+        	"scratchcard_name": "Scratch"
+        },
+         "UnitOption_ScratchCard(Clone)":
+        {
+        	"scratchcard_name": "Scratch"
+        },
+		"Dialogue_ChooseTarget(Clone)":
+		{
+			"dialogue_title": "Select Target",
+			"select_file_btn": "Upload",
+			"tip_text": "＊.JPG only(RGB, 72dpi)\n＊1 MB limited\n＊Image resolution need more than 120x120",
+			"inputfield_project_name": "Project Name",
+			"project_name_tips": "＊limited to 12 word",
+			"inputfield_project_description": "Project Description",
+			"project_description_tips": "＊limited to 20 word",
+			"no_data_tips": "No Targets uploaded.\nClick left button to make one",
+			"next_btn": "Edit",
+			"loading_title": "Please Wait",
+			"title": "No targets yet"
+		},
+		"UnitOption_Target(Clone)":
+		{
+			"reso_score": "Score"
+		},
+		"Dialogue_DeleteProject(Clone)":
+		{
+			"dialogue_title": "Delete Project",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteVRProject(Clone)":
+		{
+			"dialogue_title": "Delete Project",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_Image(Clone)":
+		{
+			"dialogue_title": "Delete Image Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_SphericalImage(Clone)":
+		{
+			"dialogue_title": "Delete Image Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_Model(Clone)":
+		{
+			"dialogue_title": "Delete Model Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_SphericalVideo(Clone)":
+		{
+			"dialogue_title": "Delete Model Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_Video(Clone)":
+		{
+			"dialogue_title": "Delete Video Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteResource_Audio(Clone)":
+		{
+			"dialogue_title": "Delete Audio Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_DeleteTarget(Clone)":
+		{
+			"dialogue_title": "Delete Target Image Resource",
+			"dialogue_content": "Can not resume after delete.\nReally want to delete?",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_ExitEditModeWithoutSave(Clone)":
+		{
+			"dialogue_title": "Exit Edit Mode",
+			"dialogue_content": "Project haven't saved.\nReally want to exit?",
+			"cancel_btn": "Cancel",
+			"exit_btn": "Exit",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_LoadingUI(Clone)":
+		{
+			"dialogue_title": "Please Wait"
+		},
+		"Dialogue_LoadingUI":
+		{
+			"dialogue_title": "Please Wait"
+		},
+		"Dialogue_ProjectDone":
+		{
+			"dialogue_title": "Congratulation!!",
+			"content_tips": "Enter 'user id' in MAKAR app to enjoy your AR",
+			"ok_btn": "ok"
+		},
+		"Dialogue_UnbindLicense(Clone)":
+		{
+			"dialogue_title": "Release license",
+			"inputfield_license": "Enter license",
+			"cancel_btn": "Cancel",
+			"delete_btn": "Release",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UpdateProject(Clone)":
+		{
+			"dialogue_title": "Update Project",
+			"dialogue_content": "Click 'Update' button and enjoy AR in MAKAR app",
+			"cancel_btn": "Cancel",
+			"update_btn": "Update",
+			"post_on_news_label": "Post on News in App",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UpdateProject_VR(Clone)":
+		{
+			"dialogue_title": "Update Project",
+			"dialogue_content": "Click 'Update' button and enjoy AR in MAKAR app",
+			"cancel_btn": "Cancel",
+			"update_btn": "Update",
+			"post_on_news_label": "Post on News in App",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadImage(Clone)":
+		{
+			"dialogue_title": "Add Image Resource",
+			"select_file_btn": "Click to select",
+			"tip_text": "＊.JPG, .PNG only(RGB, 72dpi)\n＊1 MB limited",
+			"inputfield_file_name": "Image Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadModel(Clone)":
+		{
+			"dialogue_title": "Add Model Resource",
+			"select_file_btn": "Click to select",
+			"tip_text": "＊.FBX only\n＊5 MB limited\n＊NOTE:\n1.Recommanded resolution of texture in FBX is 512x512.\n2.The more texure resolution is, the longer time it will take \n   to convert file.\n3.Select Embed Media when exporting FBX. ",
+			"inputfield_image_name": "Model Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadTarget(Clone)":
+		{
+			"dialogue_title": "Add Target",
+			"select_file_btn": "Click to select",
+			"tip_text": "＊.JPG only(RGB 72dpi)\n＊1 MB limited",
+			"inputfield_target_name": "Target Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadYouTube(Clone)":
+		{
+			"dialogue_title": "Add Video",
+			"upload_type_local_file_title": "Local",
+			"upload_type_local_file_title_selected": "Local",
+			"upload_type_youtube_title": "Youtube",
+			"upload_type_youtube_title_selected": "Youtube",
+			"selec_file_btn": "Click to select",
+			"tip_text": "＊.MP4 only\n＊10 MB limited",
+			"inputfield_video_name": "Video Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"inputfield_youtube_name": "Enter video name",
+			"inputfield_youtube_url": "Enter youtube url here",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadSphericalYouTube(Clone)":
+		{
+			"dialogue_title": "Add Video",
+			"upload_type_local_file_title": "Local",
+			"upload_type_local_file_title_selected": "Local",
+			"upload_type_youtube_title": "Youtube",
+			"upload_type_youtube_title_selected": "Youtube",
+			"selec_file_btn": "Click to select",
+			"tip_text": "＊.MP4 only\n＊10 MB limited",
+			"inputfield_video_name": "Video Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"inputfield_youtube_name": "Enter video name",
+			"inputfield_youtube_url": "Enter youtube url here",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UploadAudio(Clone)":
+		{
+			"dialogue_title": "Add Audio",
+			"upload_type_local_file_title": "Local",
+			"upload_type_local_file_title_selected": "Local",
+			"selec_file_btn": "Click to select",
+			"tip_text": "＊.MP3, *.WAV, *.OGG \n＊10 MB limited",
+			"inputfield_audio_name": "Audio Name",
+			"format_title": "Format:",
+			"size_title": "Size:",
+			"upload_btn": "Add",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UserLogout(Clone)":
+		{
+			"dialogue_title": "Logout",
+			"dialogue_content": "Really want to Logout",
+			"cancel_btn": "Cancel",
+			"logout_btn": "Logout",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_UserQuit(Clone)":
+		{
+			"dialogue_title": "Quit MAKAR",
+			"dialogue_content": "Really want to quit?",
+			"cancel_btn": "Cancel",
+			"quit_btn": "Quit",
+			"loading_title": "Please Wait"
+		},
+		"HierarchyPanel":
+		{
+			"hierarchy_title": "Scene Objects"
+		},
+		"PrefabPanels":
+		{
+			"3d_upload_image_btn": "Add Image",
+			"3d_upload_model_btn": "Add Model",
+			"3d_upload_mp4_btn": "Add Video",
+			"3d_upload_youtube_btn": "YOUTUBE",
+			"2d_upload_image_btn": "Add Image",
+			"3d_upload_audio_btn": "Add Audio",
+			"category_custom_off": "Mine",
+			"category_custom_on": "Mine",
+			"category_online_off": "Online",
+			"category_online_on": "Online",
+			"online_resource_btn": "Resource",
+			"download_text": "Download All Resource"
+		},
+		"ViewControlPanel":
+		{
+			"2d_view": "2D View",
+			"2d_view_selected": "2D View",
+			"3d_view": "3D View",
+			"3d_view_selected": "3D View"
+		},
+		"RightPanel":
+		{
+			"basic_property": "Basic Property"
+		},
+		"TransformComponent":
+		{
+			"position_title": "Position",
+			"size_title": "Size",
+			"rotation_title": "Rotate",
+			"scale_title": "Scale",
+			"anchor_title": "Anchor",
+			"basic_property": "Basic Property"
+		},
+		"MaterialElementsInspector":
+		{
+			"inspector_title": "Material"
+		},
+		"SetupMaterialPanel":
+		{
+			"shader_title": "Shader",
+			"color_title": "Color setting",
+			"apply_btn": "Apply",
+			"cancel_btn": "Cancel"
+		},
+		"BehavElementsInspectorPanel":
+		{
+			"inspector_title": "Add Action",
+			"add_component_btn": "Add"
+		},
+		"OpenWebPageElement(Clone)":
+		{
+			"inputfield_url": "|  Enter URL"
+		},
+		"PhoneCallElement(Clone)":
+		{
+			"inputfield_phone": "|  Enter Phone Number"
+		},
+		"PlayAnimitionElement(Clone)":
+		{
+			"element_title": "Animation Setting",
+			"anim_name_title": "Clip Name:",
+			"inputfield_anim_name": "Enter clip name...",
+			"start_frame_title": "Start Frame:",
+			"inputfield_start_frame": "Enter frame number...",
+			"end_frame_title": "End Frame:",
+			"inputfield_end_frame": "Enter frame number...",
+			"anim_speed_title": "Speed:",
+			"inputfield_anim_speed": "Enter value of Speed...",
+			"anim_loop_title": "Loop:"
+		},
+		"SendEmailElement(Clone)":
+		{
+			"inputfield_email": "|  Enter Email"
+		},
+		"ShowImageElement(Clone)":
+		{
+			"title": "Show Image",
+			"close_preview_title": "Close Preview",
+			"add_res_image": "Upload Image"
+		},
+		"PointCardElement(Clone)":
+		{
+			"element_title": "PointCard",
+			"background_title": "Background",
+			"password_title": "Password",
+			"point_group_title": "Style",
+			"add_point_title": "Add point",
+			"reward_point_count": "Points to get reward",
+			"add_image_btn": "Add Image"
+		},
+		"PointCardElementPointCell(Clone)":
+		{
+			"target_cancel_btn": "Cancel",
+			"add_target_btn": "Add Target",
+			"add_image_btn": "Add Image",
+			"target_title": "Target",
+			"uncollected_point_title": "Before",
+			"collected_point_title": "After"
+		},
+		"ScratchCardElement(Clone)":
+		{
+			"element_title": "ScratchCard",
+			"scratch_title": "Scratch Image",
+			"add_scratch_image": "Add Image",
+			"password_title": "Password",
+			"add_point_title": "Award",
+			"probability_tip_text": "Left Probability",
+			"alarm_probability_overmax_title": "Warning",
+			"alarm_probability_overmax": "Probability is over 100,\ncan not create new award"
+		},
+		"ScratchCardElementAwardCell(Clone)":
+		{
+			"probability_title": "Probability",
+			"award_desc_placeholder": "Award Description",
+			"add_image_btn": "Add Image",
+			"fit_toggle": "Fit to Scratch Image",
+			"overflow_toggle": "Overflow to Scratch Image"
+		},
+		"NetworkMsg":
+		{
+			"default_title": "Error",
+			"disconnect": "Disconnect"
+		},
+        "ServerMsg":
+        {
+        	"default_title": "Error"
+        },
+        "UserDataMsg":
+        {
+        	"default_title": "Error",
+        	"account_exist": "This account has registered.\nTry another",
+        	"userid_exist": "This userid has registered.\nTry another",
+        	"server_error": "Connect to server error.\nTry again later",
+        	"input_account_error": "Account or password not correct.\nTry again"
+        },
+        "ProjectMsg":
+        {
+        	"default_title": "Error",
+        	"snapshot_error": "Error when save snapshot.\nTry later .\nOr contact customer service for help",
+        	"userid_not_exist": "User id not exist",
+        	"targetid_not_exist": "Target id not exist",
+        	"scene_format_error": "Format error when saving",
+        	"has_no_key": "Data error,\nContact customer service for help",
+        	"projectid_not_exist": "Project id not exist",
+        	"scene_objs_not_list": "Format error when saving",
+        	"no_valid_key": "Error when update"
+        },
+        "TargetMsg":
+        {
+        	"default_title": "Error",
+        	"reach_maximum":"Target is full.\nbuy more or delete old one",
+        	"reach_unit_file_limit_size": "Over maximum size,\nSee the detail on dailogue",
+        	"not_correct_resolution": "Image file's resolution is invalid,\nSee the detail on dailogue",
+        	"file_not_jpg": "File not jpg format",
+        	"file_error": "File Error,\nMake sure file is exist",
+        	"over_maximum_resolution": "This file is over the maximum resolution of target",
+        	"less_than_minimum_resolution": "The resolution of target image should more than 120x120",
+        	"can_not_find_dll": "Missing a .dll file.\nBut target had successfully completed",
+        	"already_build_target_on_cloud": "Waiting for building target,\nTry again later",
+        	"userid_not_exist": "user id not exist",
+        	"server_error": "Server error,\nTry again later",
+        	"userid_or_targetid_not_exist": "User id of Target id not exist",
+        	"delete_error": "Delete Error.\n Try again later",
+        	"delete_doc_error": "Delete Error.\n Try again later",
+            "gentexdata_descr_1": "image width or height is too small",
+            "gentexdata_descr_2": "image must be RGB format (not CMYK)",
+            "gentexdata_descr_3": "image must be JPG format ",
+            "gentexdata_descr_4": "image width/height ratio is too large",
+            "gentexdata_descr_5": "image recognize feature size is too small"
+        },
+        "ResourceMsg":
+        {
+        	"default_title": "Error",
+        	"res_not_exist": "Resource is not exist",
+        	"res_disappear": "Resource is Missing.\nDelete it and upload a new one.\n＊Tools can not be used when Missing Object selected.",
+        	"reach_maximum_size": "Resource size is full.\nbuy more or delete old one",
+        	"reach_unit_file_maximum_size": "Over maximum size,\nSee the detail on dailogue",
+        	"connect_server_error": "Connect server error.\nTry again later",
+        	"userid_not_exist": "Userid not exist",
+        	"delete_file_error": "Delete file error",
+        	"snapshot_image_not_exist": "Preview image error.\nTry again later.\n Or contact customer service for help",
+			"spherical_youtube_snapshot_error": "Youtube unable analyze ,Please change soure try again later",
+			"spherical_video_snapshot_error": "Video unable analyze ,Please change soure try again later"
+        },
+        "LicenseMsg":
+        {
+        	"default_title": "Error",
+        	"different_then_binding": "License not correct.",
+        	"binding_yet": "Please enter license",
+        	"bind_success": "Bind license success.\nEnjoy your MAKAR!",
+        	"title_bind_success": "Bind Success",
+        	"unbind_success": "License is unbind from this computer",
+        	"title_unbind_success": "Unbind Success",
+        	"license_not_correct": "License not correct",
+        	"license_over_device_count": "Can't bind on more device.\nRelease from one of device and try again",
+        	"has_already_bind": "Device has bind before",
+        	"unbind_license_fail": "Unbind license fail",
+        	"license_expired": "License if expired",
+        	"device_not_bind": "Haven't bind on this device yet",
+        	"receive_data_error": "Data error",
+        	"receive_result_error": "Data error"
+        },
+        "SessionMsg":
+        {
+        	"default_title": "Error",
+        	"already_login_or_offline_error": "Logout error at last time.\nOr already login on other computer.\nTry again later",
+        	"offline_error": "Logout error at last time.\nTry again later",
+        	"already_login": "Already login on other computer.",
+        	"network_error": "Disconnected",
+        	"receive_data_error": "Server data error",
+        	"account_offline": "Account is offline",
+        	"session_end_error": "Try to logout error"
+        },
+        "LocalFileMsg":
+        {
+        	"default_title": "Error",
+        	"connect_server_error", "Connect to server error.\nPlease try again",
+        	"select_file_error": "Select file error.\nPlease try again",
+        	"file_format_error": "File format error.\nCheck file and try again",
+        	"selected_file_repeat": "File name can't be same to resource.\nPlease select other file",
+        	"file_not_exist": "File not exist!",
+        	"unit_bar_module_download_error": "Can't download preview image.\nSome objects may be freeze for while",
+        	"unit_preview_module_download_error": "Can't download preview image.\nSome objects may be freeze for while"
+        },
+        "UnitPreviewModule_Project":
+        {
+        	"dropdown_option_setting": "Setting",
+        	"dropdown_option_delete": "Delete"
+        },
+        "UnitPreviewModule_Target":
+        {
+        	"dropdown_option_delete": "Delete"
+        },
+        "AutoLogoutDialogue":
+        {
+        	"title": "Are you there?",
+        	"content": "You have leaving for a quite of long time.\n And you will be logout in ",
+        	"minute": "minute",
+        	"second": "second"
+        },
+        "CreateNewProjectDefaultSetting":
+        {
+        	"default_name": "Project"
+        },
+        "ResourceManagePanel_UploadResourceDropdown":
+        {
+        	"empty": "empty",
+        	"image": "Image",
+        	"model": "Model",
+        	"video": "Video",
+        	"youtube": "YouTube",
+        	"audio": "Audio",
+			"360°image": "360°Image",
+			"360°video": "360°Video",
+			"360°youtube": "360°YouTube"
+        },
+        "ARMainHeader":
+        {
+        	"btn_title": "Back",
+        	"header_runtimeeditor_push_project_btn": "Push"
+        },
+        "Dialogue_OnlineResource":
+        {
+        	"dialogue_title": "Online Resource",
+        	"search_placeholder": "Search",
+        	"remain_size_title": "Remaining Capacity",
+        	"search_category": "All Category",
+        	"toggle_all_on": "All",
+        	"toggle_all_off": "All",
+        	"toggle_character_on": "Character",
+        	"toggle_character_off": "Character",
+        	"toggle_animal_on": "Animal",
+        	"toggle_animal_off": "Animal",
+        	"toggle_vehicle_on": "Vehicle",
+        	"toggle_vehicle_off": "Vehicle",
+        	"toggle_building_on": "Building",
+        	"toggle_building_off": "Building",
+        	"toggle_furniture_on": "Furniture",
+        	"toggle_furniture_off": "Furniture",
+        	"toggle_plante_on": "Plante",
+        	"toggle_plante_off": "Plante",
+        	"toggle_food_on": "Food",
+        	"toggle_food_off": "Food",
+        	"toggle_other_on": "Other",
+        	"toggle_other_off": "Other",
+        	"back_btn": "Back",
+        	"res_type_all": "All",
+        	"res_type_character": "Character",
+        	"res_type_animal": "Animal",
+        	"res_type_vehicle": "Vehicle",
+        	"res_type_building": "Building",
+        	"res_type_furniture": "Furniture",
+        	"res_type_plante": "Plante",
+        	"res_type_food": "Food",
+        	"res_type_other": "Other",
+        	"order_best_rated": "Best Download",
+        	"order_newest": "Newest",
+        	"order_top_download": "Top Download",
+        	"file_size_title": "File Size:",
+        	"contain_anim_text": "Animation",
+        	"related_model_text": "Relate Model",
+        	"download_btn_download": "Download",
+        	"download_btn_downloaded": "Downloaded",
+        	"download_btn_storage_full": "Storage Full",
+        	"search_no_result_tip1": "No Result",
+        	"search_no_result_tip2": "Try another key word",
+        	"loading_tip": "Loading",
+        	"over_max_size_text": "Download Error:\nStorage Full",
+        	"about_makar_title": "About MAKAR"
+        },
+        "TransparentVideoElement(Clone)":
+        {
+        	"title": "Color Key",
+        	"slope_title": "Slope",
+        	"threshold_title": "Threshold",
+        	"preview_color_title": "Color"
+        },
+        "tooltips_table":
+        {
+        	"login_page_error_icon": "License not correct",
+        	"login_page_expired_icon": "License expired",
+        	"login_page_correct_icon": "License binding",
+        	"dialogue_choose_target_upload_btn": "＊.JPG only(RGB, 72dpi)\n＊1 MB limited\n＊Image resolution need more than 120x120",
+        	"dialogue_change_target_upload_btn": "＊.JPG only(RGB, 72dpi)\n＊1 MB limited\n＊Image resolution need more than 120x120",
+        	"add_res_image_tip": "＊.JPG,.PNG only(RGB,72dpi)\n＊1 MB limited",
+        	"add_res_model_tip": "＊.FBX only\n＊5 MB limited\n＊NOTE:\n1.Recommanded resolution of texture in FBX is 512x512.\n2.The more texure resolution is, the longer time it will take \n   to convert file.\n3.Select Embed Media when exporting FBX.",
+        	"add_res_video_local_file_tip": "＊.MP4 only\n＊10 MB limited",
+        	"add_res_video_youtube_tip": "＊Paste YouTube url to create resource",
+        	"add_res_audio_tip": "＊.MP3,*.WAV,*.OGG \n＊10 MB limited",
+        	"delete_hierarchy_res_btn": "Delete object on scene",
+        	"delete_user_res_data_btn": "Delete your own resource item",
+        	"back_to_manage_page_btn": "Go back to Manage page",
+        	"editor_tool_view_drag": "Drag View(Q)",
+        	"editor_tool_move_item": "Move(W)",
+        	"editor_tool_scale_item": "Scale(E)",
+        	"editor_tool_rotate_item": "Rotate(R)",
+        	"editor_tool_view_rotate": "Rotate View",
+        	"editor_tool_focus": "Focus",
+        	"editor_view_switcher_to_2d": "Switch edit view to 2D",
+        	"editor_view_switcher_to_3d": "Switch edit view to 3D",
+        	"manage_page_proj_prefab_statistics_btn": "Statistics",
+        	"manage_page_proj_prefab_setting_btn": "Setting",
+        	"manage_page_target_prefab_statistics_btn": "Statistics",
+        	"add_res_dropdown_image": "＊.JPG,.PNG only(RGB,72dpi)\n＊1 MB limited",
+        	"add_res_dropdown_model": "＊.FBX only\n＊5 MB limited\n＊NOTE:\n1.Recommanded resolution of texture in FBX is 512x512.\n2.The more texure resolution is, the longer time it will take \n   to convert file.\n3.Select Embed Media when exporting FBX.",
+        	"add_res_dropdown_video": "＊.MP4 only\n＊10 MB limited",
+        	"add_res_dropdown_youtube": "＊Paste YouTube url to create resource",
+        	"add_res_dropdown_audio": "＊.MP3,*.WAV,*.OGG \n＊10 MB limited",
+			"add_res_dropdown_360°image": "＊.JPG,.PNG only(RGB,72dpi)\n＊1 MB limited",
+			"add_res_dropdown_360°video": "＊.MP4 only\n＊10 MB limited",
+			"add_res_dropdown_360°youtube": "＊Paste YouTube url to create resource"
+        },
+		"VRContent":
+		{
+			"vr_manager_project_off" : "MAKAR",
+			"vr_manager_project_on" : "Create VR",
+			"vr_manager_360resource_off":"360° Resource",
+			"vr_manager_360resource_on":"360° Resource",
+			"vr_manager_resource_off":"Resource",
+			"vr_manager_resource_on":"Resource",
+			"vr_menu_project_title": "Create VR Project",
+			"vr_menu_360resource_title": "360° Resource",
+			"vr_menu_360resource_add_btn": "Add",
+			"vr_menu_360resource_no_data_tips_image": "No images uploaded!\nClick left button to upload images",
+			"vr_menu_360resource_no_data_tips_video": "No video uploaded!\nClick left button to upload videos",
+			"vr_menu_resource_title" : "Resource",
+			"category_custom": "Mine",
+			"category_online": "Online",
+			"resource_add_btn": "Add",
+			"resource_add_btn_online": "Add",
+			"downloadtext": "Download All Resource",
+			"online_res_loading_text": "Loading",
+			"vr_menu_resource_no_data_tips_image": "No images uploaded!\nClick left button to upload images",
+			"vr_menu_resource_no_data_tips_model": "No model uploaded!\nClick left button to upload models",
+			"vr_menu_resource_no_data_tips_video": "No video uploaded!\nClick left button to upload videos",
+			"vr_menu_resource_no_data_tips_audio": "No audio uploaded!\nClick left button to upload audios"
+		},
+		"Dialogue_UpdateProjectInfo(Clone)":
+		{
+			"dialogue_title" : "Change Project Information",
+			"dialogue_btn_check" : "Ok",
+			"dialogue_input_field_project_name" : "Project Name",
+			"dialogue_input_field_descr" : "Describe"
+		},
+		"VRMainHeader":
+        {
+        	"btn_title": "Back",
+        	"header_runtimeeditor_push_project_btn": "Push",
+			"header_proejct_name": "Project name is not named" 
+        },
+		"Editor_VrSceneAddDragDrop":
+		{
+			"add_secne_title" : "VR Scene",
+			"scene" : "Scene",
+			"phone_preview_view" : "Preview"
+		},
+		"Dialogue_VrEnvironmentMaterial(Clone)":
+		{
+			"environment_material_title": "Select 360° Environment Material",
+			"environment_material_templates_toggle": "Templates",
+			"environment_material_templates_toggle_select": "Templates",
+			"environment_material_spherical_image_toggle": "360°Image",
+			"environment_material_spherical_image_toggle_select": "360°Image",
+			"environment_material_spherical_video_toggle": "360°Video",
+			"environment_material_spherical_video_toggle_select": "360°Video",
+			"environment_material_check_btn": "Ok",
+			"environment_material_obj_null": "It's also empty here ~ \n Click「Add」to upload the scene material !",
+			"environment_material_spherical_image_error": "The file size is too large, please use less than 4096x4096!"
+		},
+		"AddBehavPanel":
+		{
+			"click_open_web_page":"click open web page",
+			"click_phone_call":"click phone call",
+			"click_send_email":"click send email",
+			"click_play_animation":"click play anim",
+			"reward_card":"reward card",
+			"transparent_video":"chroma video",
+			"click_show_image":"click show image"
+		},
+		"Behav_VRElementsInspectorPanel":
+		{
+			"behav_title": "Add Trigger Event",
+			"behav_inspector_clean_event": "Clean Event",
+			"behav_inspector_scene_change": "Scene Change",
+			"behav_inspector_open_web": "Open Web",
+			"behav_inspector_show_image": "Show Image",
+			"behav_inspector_show_model": "Show 3D Model",
+			"behav_inspector_show_video": "Show Video",
+			"behav_inspector_show_audio": "Trigger Audio"
+		},
+		"Dialogue_VrUpload(Clone)":
+		{
+			"vr_upload_check_btn": "Ok",
+			"vr_upload_upload_btn": "Upload",
+			"vr_upload_image_title": "Show Image",
+			"vr_upload_model_title": "Show 3D Model",
+			"vr_upload_video_title": "Show Video",
+			"vr_upload_audio_title": "Trigger Audio"
+		},
+		"Behav_TriggerEventSceneChange(Clone)":
+		{
+			"behav_title": "Scene Change",
+			"behav_none": "None",
+			"behav_delay_show": "Delay Show",
+			"behav_immediate_show": "Immediate Show"
+		},
+		"Behav_TriggerEventWeb(Clone)":
+		{
+			"behav_title": "Tirgger Web",
+			"behav_inputfield_url": "Input Web Url",
+		},
+		"Behav_TriggerEventImage(Clone)":
+		{
+			"behav_title": "Tirgger Image",
+			"behav_delay_show": "Delay Show",
+			"behav_immediate_show": "Immediate Show"
+		},
+		"Behav_TriggerEventModel(Clone)":
+		{
+			"behav_title": "Tirgger Model",
+			"behav_delay_show": "Delay Show",
+			"behav_immediate_show": "Immediate Show"
+		},
+		"Behav_TriggerEventVideo(Clone)":
+		{
+			"behav_title": "Tirgger Video",
+			"behav_delay_show": "Delay Show",
+			"behav_immediate_show": "Immediate Show",
+			"behav_auto_play": "Auto Play",
+			"behav_click_play": "Click Play"
+		},
+		"Behav_TriggerEventMusic(Clone)":
+		{
+			"behav_title": "Tirgger Audio",
+			"behav_delay_show": "Delay Show",
+			"behav_immediate_show": "Immediate Show",
+			"behav_auto_play": "Auto Play",
+			"behav_click_play": "Click Play"
+		},
+		"Dialogue_AddNewProject_VR(Clone)":
+		{
+			"dialogue_title": "Save Project",
+			"dialogue_content": "Push project and enjoy your AR in MAKAR app",
+			"cancel_btn": "Cancel",
+			"save_btn": "Push",
+			"post_on_news_label": "Post on News in App",
+			"loading_title": "Please Wait"
+		},
+		"Dialogue_SceneDelete(Clone)":
+		{
+			"dialogue_title": "Delete Scene",
+			"dialogue_content": "Are you sure you want to delete ?",
+			"cancel_btn": "Cancel",
+			"exit_btn": "Delete",
+			"loading_title": "Please Wait"
+		},
+	}
+}

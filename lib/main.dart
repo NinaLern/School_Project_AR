@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'mainpage_widget.dart';
+import 'mainpage_place.dart';
+import 'mainpage_city.dart';
+import 'mainpage_country.dart';
 import 'exhitbitionpage.dart';
 
 void main() {
@@ -21,7 +23,15 @@ class Page1 extends StatelessWidget {
     // var name = "fff";
     // var names = ["fff",];
     var cities = ['台北市', '桃園市', '台中市', '台南市'];
-    // var exhitbtion = [
+
+    var TPcountries = ["中山區", "文山區", "大同區", "大安區"];
+    var TYcountries = ["桃園區", "蘆竹區", "八德區"];
+    var TCcountries = ["中區", "北區", "南區", "西區"];
+    var TNcountris = ["七股區", "麻豆區", "安平區", "西區", "北區"];
+
+    var TNplace = ["國立台灣美術館", "台南市美術館", "永成文創跳蚤市集"];
+
+    // var exhitbtions = [
     //   {
     //     "city": "桃園市",
     //     "district": "八德區",
@@ -222,7 +232,7 @@ class Page1 extends StatelessWidget {
                         child: ExhibitionWidgetCity(
                           cities: cities,
                         ),
-                        width: 120,
+                        width: 180,
                       ),
                       //todo: GetX?
                     ]),
@@ -234,10 +244,10 @@ class Page1 extends StatelessWidget {
                       width: 30,
                     ),
                     Container(
-                      child: ExhibitionWidgetCity(
-                        cities: cities,
+                      child: ExhibitionWidgetCountry(
+                        countries: TNcountris,
                       ),
-                      width: 120,
+                      width: 180,
                     ),
                     //todo: GetX?
                   ]),
@@ -248,10 +258,10 @@ class Page1 extends StatelessWidget {
                       width: 30,
                     ),
                     Container(
-                      child: ExhibitionWidgetCity(
-                        cities: cities,
+                      child: ExhibitionWidgetPlace(
+                        place: TNplace,
                       ),
-                      width: 120,
+                      width: 180,
                     ),
                     //todo: GetX?
                   ]),

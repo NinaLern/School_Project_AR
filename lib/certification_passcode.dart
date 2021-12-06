@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_verification_code/flutter_verification_code.dart';
 
 class CertificationPressCodePage extends StatefulWidget {
   const CertificationPressCodePage({Key? key}) : super(key: key);
@@ -9,6 +10,8 @@ class CertificationPressCodePage extends StatefulWidget {
 
 class PressCodeTyping extends State<CertificationPressCodePage> {
   late FocusNode myFocusNode;
+  bool _onEditing = true;
+  late String _code;
 
   @override
   void initState() {
@@ -45,26 +48,70 @@ class PressCodeTyping extends State<CertificationPressCodePage> {
           ),
         ),
         child: Column(
-          children: const [
-            SizedBox(
-              height: 250,
+          children: [
+            const SizedBox(
+              height: 200,
             ),
-            Text("通關驗證碼",
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-            TextField(
-              textAlign: TextAlign.center,
-              decoration: InputDecoration(
-                enabledBorder: UnderlineInputBorder(
-                  borderSide: BorderSide(color: Colors.black87),
-                ),
-                focusedBorder: UnderlineInputBorder(
-                  borderSide: BorderSide(color: Colors.grey),
-                ),
-                hintText: "輸入展覽通關驗證碼進入",
-                // errorText: '錯誤的驗證碼',
-              ),
+            const Text("請輸入通關驗證碼",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+            const SizedBox(
+              height: 70,
+            ),
+            // const SizedBox(
+            //   child: TextField(
+            //     textAlign: TextAlign.center,
+            //     decoration: InputDecoration(
+            //       enabledBorder: UnderlineInputBorder(
+            //         borderSide: BorderSide(color: Colors.black87),
+            //       ),
+            //       focusedBorder: UnderlineInputBorder(
+            //         borderSide: BorderSide(color: Colors.grey),
+            //       ),
+            //       hintText: "輸入展覽通關驗證碼進入",
+            //       // errorText: '錯誤的驗證碼',
+            //     ),
+            //     keyboardType: TextInputType.number,
+            //   ),
+            // ),
+            VerificationCode(
+              textStyle: const TextStyle(fontSize: 20.0, color: Colors.black87),
               keyboardType: TextInputType.number,
+              // in case underline color is null it will use primaryColor: Colors.red from Theme
+              underlineColor: Colors.orange[300],
+              underlineWidth: 2,
+              length: 5,
+              // clearAll is NOT required, you can delete it
+              // takes any widget, so you can implement your design
+              clearAll: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  'clear all',
+                  style: TextStyle(
+                      fontSize: 14.0,
+                      decoration: TextDecoration.underline,
+                      color: Colors.grey),
+                ),
+              ),
+              onCompleted: (String value) {
+                setState(() {
+                  _code = value;
+                });
+              },
+              onEditing: (bool value) {
+                setState(() {
+                  _onEditing = value;
+                });
+                if (!_onEditing) FocusScope.of(context).unfocus();
+              },
             ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: _onEditing
+                    ? const Text('Please enter full code')
+                    : Text('Your code: $_code'),
+              ),
+            )
           ],
         ),
       ),

@@ -1,0 +1,894 @@
+{
+	"ChineseTraditional":
+	{
+		"TestPanel":
+		{
+			"Text1":"測試文字1",
+			"Text2":"測試文字2",
+			"Text3":"測試文字3",
+			"Text4":"測試文字4"
+		},
+		"LoginPanel":
+		{
+			"enter_email":"輸入'信箱'或'使用者名稱'",
+			"enter_password":"輸入密碼",
+			"remember_password":"記住密碼",
+			"enter_license":"輸入序號(可略)",
+			"bind_license":"驗證",
+			"unbind_license":"解除",
+			"login_btn":"登入",
+			"signup_text":"沒有帳號？",
+			"signup_btn":"點這裡註冊吧！",
+			"forget_password":"忘記密碼?",
+			"login_info_1":"開發迅速，\n十分鐘快速體驗。",
+			"login_info_2":"免費開發，\n隨需購買。",
+			"login_info_3":"學習曲線短，\n適用任何年齡層。",
+			"login_info_4":"任何產業都可以快速跟\n擴增實境做連接。"
+		},
+		"ARContent":
+		{
+			"ar_manager_project_off":"MAKAR",
+			"ar_manager_project_on":"建立AR",
+			"ar_manager_target_off":"辨識圖管理",
+			"ar_manager_target_on":"辨識圖管理",
+			"ar_manager_resource_off":"素材庫管理",
+			"ar_manager_resource_on":"素材庫管理",
+			"ar_menu_project_title": "建立AR專案",
+			"ar_menu_project_no_data_tips": "點選左方建立新MAKAR，\n創建您的第一個AR專案！",
+			"ar_menu_target_title": "辨識圖管理",
+			"ar_menu_target_no_data_tips": "您尚未有任何辨識圖，\n點選左方新增辨識圖吧！",
+			"ar_menu_resource_title": "素材庫管理",
+			"ar_menu_resource_no_data_tips_image": "您尚未有任何圖片，\n點選左方新增圖片素材吧！",
+			"ar_menu_resource_no_data_tips_model": "您尚未有任何模型，\n點選左方新增模型素材吧！",
+			"ar_menu_resource_no_data_tips_video": "您尚未有任何影片，\n點選左方新增影片素材吧！",
+			"ar_menu_resource_no_data_tips_audio": "您尚未有任何音效，\n點選左方新增音效素材吧！",
+			"category_custom": "我的素材",
+			"category_online": "線上素材",
+			"resource_add_btn": "添加",
+			"resource_add_btn_online": "添加",
+			"downloadtext": "一次下載全部素材",
+			"online_res_loading_text": "努力傳送中"
+		},
+		"UnitPreviewPrefab_Project":
+		{
+			"reco_score": "辨識率"
+		},
+		"UnitPreviewPrefab_Target":
+		{
+			"reco_score": "辨識率",
+			"target_using": "專案使用中"
+		},
+		"UserDataInfoPanel(Clone)":
+		{
+			"free": "體驗版用戶",
+			"free_cert": "一般用戶",
+			"subscription": "訂閱用戶",
+			"custom": "企業會員",
+			"male": "男",
+			"female": "女",
+			"upgrade_btn": "升級",
+			"info_target": "辨識圖",
+			"info_scan_times": "掃描次數",
+			"info_remaining_capacity": "剩餘容量",
+			"title_account": "帳號",
+			"title_birthday": "生日",
+			"title_gender": "性別",
+			"title_job": "職業",
+			"title_country": "地區",
+			"title_phone": "電話",
+			"license_title": "已綁定授權序號",
+			"license_target_count": "授權辨識圖數量",
+			"license_scan_times": "授權專案掃描次數",
+			"license_resource_capacity": "授權素材總容量",
+			"license_expired_date": "授權序號到期日",
+			"user_type_free": "體驗版帳戶",
+			"user_type_free_cert": "認證版帳戶",
+			"user_type_subscription": "訂購版帳戶",
+			"user_type_custom": "客製化帳戶",
+			"member_info": "會員資料",
+			"usage_amount": "目前可用",
+			"detail": "更多明細",
+			"expired": "已到期",
+			"extend": "延長",
+			"title_name": "稱呼"
+		},
+		"Dialogue_AddNewProject(Clone)":
+		{
+			"dialogue_title": "儲存專案",
+			"dialogue_content": "按下「儲存並發布」\n立即開啟MAKAR APP體驗擴增實境",
+			"cancel_btn": "取消",
+			"save_btn": "儲存",
+			"post_on_news_label": "公開至APP動態頁面",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_AlarmAnything(Clone)":
+		{
+			"ok_btn": "確認"
+		},
+		"Dialogue_ChangeTarget(Clone)":
+		{
+			"dialogue_title": "更改辨識圖與資訊",
+			"select_file_btn": "電腦上傳",
+			"tip_text":"＊限JPEG, RGB 72 dpi\n＊檔案不得超過 1 MB\n＊辨識圖不能小於120*120",
+			"inputfield_project_name": "專案名稱",
+			"project_name_tips": "＊限12字",
+			"project_description_inputfield": "活動描述",
+			"project_description_tips": "＊限20字",
+			"no_data_tips": "目前沒有未使用的辨識圖，\n點選左方新增辨識圖吧！",
+			"update_btn": "更新",
+			"loading_title": "資料處理中",
+			"target_selection_lock_text": "＊集點卡站不提供更換辨識圖，若要變更請至專案編輯內頁更換",
+			"post_on_news_label": "發佈至APP最新動態"
+		},
+		"Dialogue_ChooseProjectModule(Clone)":
+		{
+			"dialogue_title": "選擇模版",
+			"history_module_title": "歷史專案",
+			"history_module_title_selected": "歷史專案",
+			"business_module_title": "商務行銷",
+			"business_module_title_selected": "商務行銷",
+			"no_preview_module_tips": "您還沒有建立歷史專案喔！\n按下「下一步」以開始製作！",
+			"next_btn": "下一步"
+		},
+		"UnitData_NoModule(Clone)":
+		{
+			"no_module": "無模版"
+		},
+		"UnitData_NoModule":
+		{
+			"no_module": "無模版"
+		},
+		"UnitOption_PointCard":
+		{
+			"pointcard_name": "集點卡"
+		},
+		"UnitOption_PointCard(Clone)":
+		{
+			"pointcard_name": "集點卡"
+		},
+        "UnitOption_ScratchCard":
+        {
+        	"scratchcard_name": "刮刮卡"
+        },
+         "UnitOption_ScratchCard(Clone)":
+        {
+        	"scratchcard_name": "刮刮卡"
+        },
+		"Dialogue_ChooseTarget(Clone)":
+		{
+			"dialogue_title": "選擇辨識圖",
+			"select_file_btn": "點擊選擇辨識圖",
+			"tip_text": "＊限JPEG, RGB 72 dpi\n＊檔案不得超過 1 MB\n＊辨識圖不能小於120*120",
+			"inputfield_project_name": "專案名稱",
+			"project_name_tips": "＊限12字",
+			"inputfield_project_description": "活動描述",
+			"project_description_tips": "＊限20字",
+			"no_data_tips": "目前沒有未使用的辨識圖，\n點選左方新增辨識圖吧！",
+			"next_btn": "開始編輯",
+			"loading_title": "資料處理中",
+			"title": "尚無辨識圖"
+		},
+		"UnitOption_Target(Clone)":
+		{
+			"reso_score": "辨識率"
+		},
+		"Dialogue_DeleteProject(Clone)":
+		{
+			"dialogue_title": "刪除專案",
+			"dialogue_content": "刪除專案後將無法復原，是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteVRProject(Clone)":
+		{
+			"dialogue_title": "刪除專案",
+			"dialogue_content": "刪除專案後將無法復原，是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_Image(Clone)":
+		{
+			"dialogue_title": "刪除圖片素材",
+			"dialogue_content": "刪除圖片素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_SphericalImage(Clone)":
+		{
+			"dialogue_title": "刪除圖片素材",
+			"dialogue_content": "刪除圖片素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_Model(Clone)":
+		{
+			"dialogue_title": "刪除模型素材",
+			"dialogue_content": "刪除模型素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_SphericalVideo(Clone)":
+		{
+			"dialogue_title": "刪除模型素材",
+			"dialogue_content": "刪除模型素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_Video(Clone)":
+		{
+			"dialogue_title": "刪除影片素材",
+			"dialogue_content": "刪除影片素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteResource_Audio(Clone)":
+		{
+			"dialogue_title": "刪除音效素材",
+			"dialogue_content": "刪除音效素材後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_DeleteTarget(Clone)":
+		{
+			"dialogue_title": "刪除辨識圖",
+			"dialogue_content": "刪除辨識圖後將無法復原，\n是否確定刪除?",
+			"cancel_btn": "不刪除",
+			"delete_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_ExitEditModeWithoutSave(Clone)":
+		{
+			"dialogue_title": "離開專案編輯",
+			"dialogue_content": "您的變更尚未儲存，\n確定要離開編輯嗎？",
+			"cancel_btn": "取消",
+			"exit_btn": "離開",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_LoadingUI(Clone)":
+		{
+			"dialogue_title": "資料處理中"
+		},
+		"Dialogue_LoadingUI":
+		{
+			"dialogue_title": "資料處理中"
+		},
+		"Dialogue_ProjectDone":
+		{
+			"dialogue_title": "恭喜您完成專案",
+			"content_tips": "在MAKAR APP上輸入ID觀看吧",
+			"ok_btn": "確定"
+		},
+		"Dialogue_UnbindLicense(Clone)":
+		{
+			"dialogue_title": "解除授權序號",
+			"inputfield_license": "輸入原序號",
+			"cancel_btn": "不解除",
+			"delete_btn": "確定解除",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UpdateProject(Clone)":
+		{
+			"dialogue_title": "更新專案",
+			"dialogue_content": "按下「更新」\n立即開啟MAKAR APP體驗擴增實境",
+			"cancel_btn": "取消",
+			"update_btn": "更新",
+			"post_on_news_label": "公開至APP動態頁面",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UpdateProject_VR(Clone)":
+		{
+			"dialogue_title": "更新專案",
+			"dialogue_content": "按下「更新」\n立即開啟MAKAR APP體驗擴增實境",
+			"cancel_btn": "取消",
+			"update_btn": "更新",
+			"post_on_news_label": "公開至APP動態頁面",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadImage(Clone)":
+		{
+			"dialogue_title": "上傳圖片",
+			"select_file_btn": "點擊選擇圖片",
+			"tip_text": "＊限JPEG, PNG. RGB 72 dpi\n＊檔案不得超過1MB",
+			"inputfield_file_name": "圖片名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳圖片",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadModel(Clone)":
+		{
+			"dialogue_title": "上傳模型",
+			"select_file_btn": "點擊選擇模型",
+			"tip_text": "＊限fbx檔\n＊檔案不得超過5MB\n＊注意:\n1. FBX檔中的貼圖格式建議大小為512X512。\n2. 如貼圖格式超過 512X512 轉檔時間將會加長。\n3. FBX輸出時記得勾選Embed Media。",
+			"inputfield_image_name": "模型名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳模型",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadTarget(Clone)":
+		{
+			"dialogue_title": "上傳辨識圖",
+			"select_file_btn": "點擊選擇圖片",
+			"tip_text": "＊限JPEG, RGB 72 dpi\n＊檔案不得超過1MB",
+			"inputfield_target_name": "影片名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳辨識圖",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadYouTube(Clone)":
+		{
+			"dialogue_title": "上傳影片",
+			"upload_type_local_file_title": "我的電腦",
+			"upload_type_local_file_title_selected": "我的電腦",
+			"upload_type_youtube_title": "Youtube",
+			"upload_type_youtube_title_selected": "Youtube",
+			"selec_file_btn": "點擊選擇影片",
+			"tip_text": "＊限MP4檔\n＊檔案不得超過10MB",
+			"inputfield_video_name": "影片名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳",
+			"inputfield_youtube_name": "輸入影片名稱",
+			"inputfield_youtube_url": "輸入youtube網址",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadSphericalYouTube(Clone)":
+		{
+			"dialogue_title": "上傳影片",
+			"upload_type_local_file_title": "我的電腦",
+			"upload_type_local_file_title_selected": "我的電腦",
+			"upload_type_youtube_title": "Youtube",
+			"upload_type_youtube_title_selected": "Youtube",
+			"selec_file_btn": "點擊選擇影片",
+			"tip_text": "＊限MP4檔\n＊檔案不得超過10MB",
+			"inputfield_video_name": "影片名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳",
+			"inputfield_youtube_name": "輸入影片名稱",
+			"inputfield_youtube_url": "輸入youtube網址",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UploadAudio(Clone)":
+		{
+			"dialogue_title": "上傳音效",
+			"upload_type_local_file_title": "我的電腦",
+			"upload_type_local_file_title_selected": "我的電腦",
+			"selec_file_btn": "點擊選擇音效",
+			"tip_text": "＊限MP3, WAV, OGG\n＊檔案不得超過10MB",
+			"inputfield_audio_name": "音效名稱",
+			"format_title": "格式：",
+			"size_title": "大小：",
+			"upload_btn": "上傳音效",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UserLogout(Clone)":
+		{
+			"dialogue_title": "登出",
+			"dialogue_content": "確定要登出嗎？",
+			"cancel_btn": "取消",
+			"logout_btn": "登出",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_UserQuit(Clone)":
+		{
+			"dialogue_title": "離開MAKAR",
+			"dialogue_content": "確定要離開MAKAR嗎？",
+			"cancel_btn": "取消",
+			"quit_btn": "離開",
+			"loading_title": "資料處理中"
+		},
+		"HierarchyPanel":
+		{
+			"hierarchy_title": "場景物件"
+		},
+		"PrefabPanels":
+		{
+			"3d_upload_image_btn": "上傳圖片",
+			"3d_upload_model_btn": "上傳模型",
+			"3d_upload_mp4_btn": "上傳影片",
+			"3d_upload_youtube_btn": "YOUTUBE",
+			"2d_upload_image_btn": "上傳圖片",
+			"3d_upload_audio_btn": "上傳音效",
+			"category_custom_off": "我的素材",
+			"category_custom_on": "我的素材",
+			"category_online_off": "線上素材",
+			"category_online_on": "線上素材",
+			"online_resource_btn": "線上素材庫",
+			"download_text": "一次下載全部素材"
+		},
+		"ViewControlPanel":
+		{
+			"2d_view": "2D平面圖",
+			"2d_view_selected": "2D平面圖",
+			"3d_view": "3D立體圖",
+			"3d_view_selected": "3D立體圖"
+		},
+		"RightPanel":
+		{
+			"basic_property": "基本屬性"
+		},
+		"TransformComponent":
+		{
+			"position_title": "位置",
+			"size_title": "尺寸",
+			"rotation_title": "旋轉",
+			"scale_title": "縮放",
+			"anchor_title": "對齊",
+			"basic_property": "基本屬性"
+		},
+		"MaterialElementsInspector":
+		{
+			"inspector_title": "材質球屬性"
+		},
+		"SetupMaterialPanel":
+		{
+			"shader_title": "材質球材質",
+			"color_title": "色彩調整",
+			"apply_btn": "確認",
+			"cancel_btn": "取消"
+		},
+		"BehavElementsInspectorPanel":
+		{
+			"inspector_title": "新增功能",
+			"add_component_btn": "新增功能"
+		},
+		"OpenWebPageElement(Clone)":
+		{
+			"inputfield_url": "|  輸入網址"
+		},
+		"PhoneCallElement(Clone)":
+		{
+			"inputfield_phone": "|  輸入電話號碼"
+		},
+		"PlayAnimitionElement(Clone)":
+		{
+			"element_title": "動態設定",
+			"anim_name_title": "動畫名稱:",
+			"inputfield_anim_name": "輸入動畫片段名稱...",
+			"start_frame_title": "起始影格:",
+			"inputfield_start_frame": "輸入影格數值...",
+			"end_frame_title": "結束影格:",
+			"inputfield_end_frame": "輸入影格數值...",
+			"anim_speed_title": "播放速度:",
+			"inputfield_anim_speed": "輸入速度數值...",
+			"anim_loop_title": "循環播放:"
+		},
+		"SendEmailElement(Clone)":
+		{
+			"inputfield_email": "|  輸入信箱"
+		},
+		"ShowImageElement(Clone)":
+		{
+			"title": "觸發圖片",
+			"close_preview_title": "結束預覽模式",
+			"add_res_image": "上傳圖片"
+		},
+		"PointCardElement(Clone)":
+		{
+			"element_title": "集點卡",
+			"background_title": "背景圖",
+			"password_title": "兌換密碼",
+			"point_group_title": "集點樣式",
+			"add_point_title": "增加點數",
+			"reward_point_count": "集滿以下點數後即可兌換",
+			"add_image_btn": "上傳圖片"
+		},
+		"PointCardElementPointCell(Clone)":
+		{
+			"target_cancel_btn": "取消這個點數",
+			"add_target_btn": "上傳辨識圖",
+			"add_image_btn": "上傳圖片",
+			"target_title": "辨識圖",
+			"uncollected_point_title": "集點前",
+			"collected_point_title": "集點後"
+		},
+		"ScratchCardElement(Clone)":
+		{
+			"element_title": "刮刮卡",
+			"scratch_title": "刮刮圖",
+			"add_scratch_image": "新增圖片",
+			"password_title": "兌換密碼",
+			"add_point_title": "獎項",
+			"probability_tip_text": "可分配機率剩餘",
+			"alarm_probability_overmax_title": "警告",
+			"alarm_probability_overmax": "機率超過100%了，\n無法建立新的獎項"
+		},
+		"ScratchCardElementAwardCell(Clone)":
+		{
+			"probability_title": "得獎機率",
+			"award_desc_placeholder": "輸入得獎文字",
+			"add_image_btn": "上傳獎項圖",
+			"fit_toggle": "長邊符合刮刮圖大小",
+			"overflow_toggle": "短邊符合刮刮圖大小"
+		},
+		"NetworkMsg":
+		{
+			"default_title": "錯誤訊息",
+			"disconnect": "連線中斷"
+		},
+        "ServerMsg":
+        {
+        	"default_title": "錯誤訊息"
+        },
+        "UserDataMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"account_exist": "輸入的帳號已經註冊過了，\n請更換後再試一次",
+        	"userid_exist": "輸入的ID已經註冊過了，\n請更換後再試一次",
+        	"server_error": "伺服器連線錯誤\n請稍後再試一次\n或點擊Help請求協助",
+        	"input_account_error": "您輸入的帳號或密碼不正確\n請重新輸入"
+        },
+        "ProjectMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"snapshot_error": "此專案的縮圖發生了點問題，\n請重新嘗試一次，\n或洽詢服務人員",
+        	"userid_not_exist": "使用者ID不存在",
+        	"targetid_not_exist": "辨識圖ID不存在",
+        	"scene_format_error": "儲存檔案錯誤",
+        	"has_no_key": "儲存資料不完全，\n請聯繫服務人員",
+        	"projectid_not_exist": "專案ID不存在",
+        	"scene_objs_not_list": "儲存檔案錯誤",
+        	"no_valid_key": "更新時發生錯誤"
+        },
+        "TargetMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"reach_maximum":"Target已經達到最大上限囉，\n如需新增Target，可參考其他付費方案，\n或刪除舊有的Target",
+        	"reach_unit_file_limit_size": "「辨識圖」檔案大小上限為：1 MB\n您所選擇的檔案已超過該上限\n請選擇其他檔案",
+        	"not_correct_resolution": "選取的檔案尺寸不符合，\n請參閱對話框中的格式，\n並檢查檔案是否合乎要求",
+        	"file_not_jpg": "請選擇正確的JPG檔案",
+        	"file_error": "辨識圖檔錯誤，請檢察檔案是否存在",
+        	"over_maximum_resolution":"超過允許的解析度",
+        	"less_than_minimum_resolution": "解析度必須大於 120x120",
+        	"can_not_find_dll": "似乎缺少一點檔案，已協助處理完畢，\n如希望有更好的體驗，\n可安裝'Visual Studio 2013的Visual C++'",
+        	"already_build_target_on_cloud": "上一次的發布尚未完成，\n請稍後再試一次",
+        	"userid_not_exist": "使用者id不存在",
+        	"server_error": "伺服器連線錯誤\n請稍後再試一次\n或點擊Help請求協助",
+        	"userid_or_targetid_not_exist": "使用者id或辨識圖不存在",
+        	"delete_error": "檔案刪除錯誤，\n請稍後再試一次",
+        	"delete_doc_error": "刪除時資料庫錯誤",
+            "gentexdata_descr_1": "圖片長或寬太小",
+            "gentexdata_descr_2": "圖片必須是RGB形式(不可以是CMYK)",
+            "gentexdata_descr_3": "圖片必須是JPG格式",
+            "gentexdata_descr_4": "圖片長寬比差距太大",
+            "gentexdata_descr_5": "圖片可辨識度太差"
+        },
+        "ResourceMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"res_not_exist": "您的素材欄位中無法取得此筆素材資料",
+        	"res_disappear": "素材已經被刪除，儲存時將不會儲存此物件，\n請刪除場景中的物件後重新上傳\n*重新上傳的素材不會取代原有素材\n*選取遺失的物件時，將無法使用部分工具",
+        	"reach_maximum_size": "您上傳的素材將超過可使用的總容量，\n請更換小一點的素材\n或者刪除不必要的素材",
+        	"reach_unit_file_maximum_size": "超過單檔大小上限，\n可參考對話框中之檔案提示資訊",
+        	"connect_server_error": "伺服器連線錯誤\n請稍後再試一次\n或點擊Help請求協助",
+        	"userid_not_exist": "使用者id不存在",
+        	"delete_file_error": "刪除的資料錯誤",
+        	"snapshot_image_not_exist": "製作預覽圖出錯，\n請重新嘗試一次，\n或洽詢服務人員",
+			"spherical_youtube_snapshot_error": "youtube影片無法解析，\n請更換來源後再試一次",
+			"spherical_video_snapshot_error": "影片無法解析，\n請更換來源後再試一次"
+        },
+        "LicenseMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"different_then_binding": "您輸入的序號與原先的不同，\n請確認後再輸入一次",
+        	"binding_yet": "您尚未輸入授權序號",
+        	"bind_success": "授權序號輸入成功，\n開始享受製作AR的樂趣吧!",
+        	"title_bind_success": "序號綁定成功",
+        	"unbind_success": "授權序號已成功從這台電腦中解除",
+        	"title_unbind_success": "序號解除成功",
+        	"license_not_correct": "授權序號不正確",
+        	"license_over_device_count": "授權序號已超出授權上限",
+        	"has_already_bind": "此電腦已經綁定過了",
+        	"unbind_license_fail": "取消授權失敗",
+        	"license_expired": "授權序號已過期，\n登入的帳號將不再提供授權服務",
+        	"device_not_bind": "此電腦未綁定授權",
+        	"receive_data_error": "伺服器資料存取錯誤",
+        	"receive_result_error": "資料錯誤"
+        },
+        "SessionMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"already_login_or_offline_error": "上次離線異常，或者帳號已由其他地方登入\n請稍後再試一次",
+        	"offline_error": "上次離線異常，\n請試著再登入一次",
+        	"already_login": "帳號目前登入中，\n請確認帳號沒有在其他處登入",
+        	"network_error": "網路連線錯誤",
+        	"receive_data_error": "伺服器資料存取錯誤",
+        	"account_offline": "帳號目前離線中",
+        	"session_end_error": "嘗試登出錯誤"
+        },
+        "LocalFileMsg":
+        {
+        	"default_title": "錯誤訊息",
+        	"connect_server_error", "伺服器連線異常!\n請重新上傳一次",
+        	"select_file_error": "選擇檔案錯誤，\n請重新選擇檔案",
+        	"file_format_error": "您選擇的檔案格式有誤，\n請檢察後再試一次",
+        	"selected_file_repeat": "您所選的檔案名稱重複囉，\n請檢察後再試一次",
+        	"file_not_exist": "選取的檔案不存在!",
+        	"unit_bar_module_download_error": "部分物件無法取得預覽圖，該物件將暫時不能點選",
+        	"unit_preview_module_download_error": "部分物件無法取得預覽圖，該物件將暫時不能點選"
+        },
+        "UnitPreviewModule_Project":
+        {
+        	"dropdown_option_setting": "設定",
+        	"dropdown_option_delete": "刪除"
+        },
+        "UnitPreviewModule_Target":
+        {
+        	"dropdown_option_delete": "刪除"
+        },
+        "AutoLogoutDialogue":
+        {
+        	"title": "閒置",
+        	"content": "您已經一陣子沒有操作囉！系統將會自動登出\n剩餘：",
+        	"minute": "分鐘",
+        	"second": "秒"
+        },
+        "CreateNewProjectDefaultSetting":
+        {
+        	"default_name": "專案"
+        },
+        "ResourceManagePanel_UploadResourceDropdown":
+        {
+        	"empty": "無",
+        	"image": "圖片",
+        	"model": "模型",
+        	"video": "影片",
+        	"youtube": "YouTube",
+        	"audio": "聲音",
+			"360°image": "360°圖片",
+			"360°video": "360°影片",
+			"360°youtube": "360°YouTube"
+        },
+        "ARMainHeader":
+        {
+        	"btn_title": "返回",
+        	"header_runtimeeditor_push_project_btn": "儲存並發布"
+        },
+        "Dialogue_OnlineResource":
+        {
+        	"dialogue_title": "線上素材庫",
+        	"search_placeholder": "搜我",
+        	"remain_size_title": "剩餘容量",
+        	"search_category": "全部類別",
+        	"toggle_all_on": "全部素材",
+        	"toggle_all_off": "全部素材",
+        	"toggle_character_on": "人物",
+        	"toggle_character_off": "人物",
+        	"toggle_animal_on": "動物",
+        	"toggle_animal_off": "動物",
+        	"toggle_vehicle_on": "交通工具",
+        	"toggle_vehicle_off": "交通工具",
+        	"toggle_building_on": "建築物",
+        	"toggle_building_off": "建築物",
+        	"toggle_furniture_on": "家俱",
+        	"toggle_furniture_off": "家俱",
+        	"toggle_plante_on": "植物",
+        	"toggle_plante_off": "植物",
+        	"toggle_food_on": "食物",
+        	"toggle_food_off": "食物",
+        	"toggle_other_on": "其他",
+        	"toggle_other_off": "其他",
+        	"back_btn": "返回",
+        	"res_type_all": "全部素材",
+        	"res_type_character": "人物",
+        	"res_type_animal": "動物",
+        	"res_type_vehicle": "交通工具",
+        	"res_type_building": "建築物",
+        	"res_type_furniture": "家俱",
+        	"res_type_plante": "植物",
+        	"res_type_food": "食物",
+        	"res_type_other": "其他",
+        	"order_best_rated": "最受喜愛",
+        	"order_newest": "最新素材",
+        	"order_top_download": "最多下載",
+        	"file_size_title": "檔案大小:",
+        	"contain_anim_text": "含動作",
+        	"related_model_text": "推薦模型",
+        	"download_btn_download": "下載",
+        	"download_btn_downloaded": "已下載",
+        	"download_btn_storage_full": "容量已滿",
+        	"search_no_result_tip1": "抱歉我們找不到您要搜尋的項目",
+        	"search_no_result_tip2": "確保所有字拼寫正確，或試試其他關鍵字吧！",
+        	"loading_tip": "努力傳送中",
+        	"over_max_size_text": "容量不足\n無法下載",
+        	"about_makar_title": "關於Makar"
+        },
+        "TransparentVideoElement(Clone)":
+        {
+        	"title": "影片去背",
+        	"slope_title": "坡度",
+        	"threshold_title": "臨界值",
+        	"preview_color_title": "顏色"
+        },
+        "tooltips_table":
+        {
+        	"login_page_error_icon": "輸入的序號錯誤",
+        	"login_page_expired_icon": "序號已到期",
+        	"login_page_correct_icon": "序號已綁定",
+        	"dialogue_choose_target_upload_btn": "＊限JPEG,RGB,72 dpi\n＊檔案不得超過 1 MB\n＊辨識圖不能小於120*120",
+        	"dialogue_change_target_upload_btn": "＊限JPEG,RGB,72 dpi\n＊檔案不得超過 1 MB\n＊辨識圖不能小於120*120",
+        	"add_res_image_tip": "＊限JPEG, PNG. RGB 72 dpi\n＊檔案不得超過1MB",
+        	"add_res_model_tip": "限fbx檔\n＊檔案不得超過5MB\n＊注意:\n1. FBX檔中的貼圖格式建議大小為512X512。\n2. 如貼圖格式超過 512X512 轉檔時間將會加長。\n3. FBX輸出時記得勾選Embed Media。",
+        	"add_res_video_local_file_tip": "＊限MP4檔\n＊檔案不得超過10MB",
+        	"add_res_video_youtube_tip": "＊貼上YouTube網址以建立素材",
+        	"add_res_audio_tip": "＊限MP3, WAV, OGG\n＊檔案不得超過10MB",
+        	"delete_hierarchy_res_btn": "刪除場景中的物件",
+        	"delete_user_res_data_btn": "刪除使用者素材庫的物件",
+        	"back_to_manage_page_btn": "回管理頁",
+        	"editor_tool_view_drag": "拖曳視角位置(Q)",
+        	"editor_tool_move_item": "移動(W)",
+        	"editor_tool_scale_item": "縮放(E)",
+        	"editor_tool_rotate_item": "旋轉(R)",
+        	"editor_tool_view_rotate": "旋轉視角角度",
+        	"editor_tool_focus": "聚焦物件",
+        	"editor_view_switcher_to_2d": "切換至2D編輯場景",
+        	"editor_view_switcher_to_3d": "切換至3D編輯場景",
+        	"manage_page_proj_prefab_statistics_btn": "統計資料",
+        	"manage_page_proj_prefab_setting_btn": "設定",
+        	"manage_page_target_prefab_statistics_btn": "統計資料",
+        	"add_res_dropdown_image": "＊限JPEG, PNG. RGB 72 dpi\n＊檔案不得超過1MB",
+        	"add_res_dropdown_model": "限fbx檔\n＊檔案不得超過5MB\n＊注意:\n1. FBX檔中的貼圖格式建議大小為512X512。\n2. 如貼圖格式超過 512X512 轉檔時間將會加長。\n3. FBX輸出時記得勾選Embed Media。",
+        	"add_res_dropdown_video": "＊限MP4檔\n＊檔案不得超過10MB",
+        	"add_res_dropdown_youtube": "＊貼上YouTube網址以建立素材",
+        	"add_res_dropdown_audio": "＊限MP3, WAV, OGG\n＊檔案不得超過10MB",
+			"add_res_dropdown_360°image": "＊限JPEG, PNG. RGB 72 dpi\n＊檔案不得超過1MB",
+			"add_res_dropdown_360°video": "＊限MP4檔\n＊檔案不得超過10MB",
+			"add_res_dropdown_360°youtube": "＊貼上YouTube網址以建立素材"
+        },
+		"VRContent":
+		{
+			"vr_manager_project_off" : "MAKAR",
+			"vr_manager_project_on" : "建立VR",
+			"vr_manager_360resource_off": "360°素材管理",
+			"vr_manager_360resource_on": "360°素材管理",
+			"vr_manager_resource_off": "素材管理",
+			"vr_manager_resource_on": "素材管理",
+			"vr_menu_project_title": "建立VR專案",
+			"vr_menu_360resource_title": "360°素材管理",
+			"vr_menu_360resource_add_btn": "添加",
+			"vr_menu_360resource_no_data_tips_image": "咦！還沒有素材嗎？\n按左上角按鈕添加吧！",
+			"vr_menu_360resource_no_data_tips_video": "您尚未有任何影片，\n點選左方新增影片素材吧！",
+			"vr_menu_resource_title" : "素材管理",
+			"category_custom": "我的素材",
+			"category_online": "線上素材",
+			"resource_add_btn": "添加",
+			"resource_add_btn_online": "添加",
+			"downloadtext": "一次下載全部素材",
+			"online_res_loading_text": "努力傳送中",
+			"vr_menu_resource_no_data_tips_image": "您尚未有任何圖片，\n點選左方新增圖片素材吧！",
+			"vr_menu_resource_no_data_tips_model": "您尚未有任何模型，\n點選左方新增模型素材吧！",
+			"vr_menu_resource_no_data_tips_video": "您尚未有任何影片，\n點選左方新增影片素材吧！",
+			"vr_menu_resource_no_data_tips_audio": "您尚未有任何音效，\n點選左方新增音效素材吧！"
+		},
+		"Dialogue_UpdateProjectInfo(Clone)":
+		{
+			"dialogue_title" : "更改專案資訊",
+			"dialogue_btn_check" : "確定",
+			"dialogue_input_field_project_name" : "專案名稱",
+			"dialogue_input_field_descr" : "活動描述"
+		},
+		"VRMainHeader":
+        {
+        	"btn_title": "返回",
+        	"header_runtimeeditor_push_project_btn": "儲存並發布",
+			"header_proejct_name": "專案名稱未命名" 
+        },
+		"Editor_VrSceneAddDragDrop":
+		{
+			"add_secne_title" : "VR 場景",
+			"scene" : "場景",
+			"phone_preview_view" : "手機預覽畫面"
+		},
+		"Dialogue_VrEnvironmentMaterial(Clone)":
+		{
+			"environment_material_title": "選擇360°環景素材",
+			"environment_material_templates_toggle": "模板",
+			"environment_material_templates_toggle_select": "模板",
+			"environment_material_spherical_image_toggle": "360°圖片",
+			"environment_material_spherical_image_toggle_select": "360°圖片",
+			"environment_material_spherical_video_toggle": "360°影片",
+			"environment_material_spherical_video_toggle_select": "360°影片",
+			"environment_material_check_btn": "確定",
+			"environment_material_obj_null": "這裡還空空如也～\n點擊「添加」來上傳環景素材吧！",
+			"environment_material_spherical_image_error": "圖檔過大，請使用小於 4096x4096！"
+		},
+		"AddBehavPanel":
+		{
+			"click_open_web_page":"點擊開啟網頁",
+			"click_phone_call":"點擊撥打電話",
+			"click_send_email":"點擊傳送郵件",
+			"click_play_animation":"點擊播放動作",
+			"reward_card":"集點卡",
+			"transparent_video":"去背影片",
+			"click_show_image":"點擊顯示圖片"
+		},
+		"Behav_VRElementsInspectorPanel":
+		{
+			"behav_title": "新增觸發事件",
+			"behav_inspector_clean_event": "清空事件",
+			"behav_inspector_scene_change": "場景轉換",
+			"behav_inspector_open_web": "跳至網頁",
+			"behav_inspector_show_image": "顯示圖片",
+			"behav_inspector_show_model": "顯示3D模型",
+			"behav_inspector_show_video": "顯示影片",
+			"behav_inspector_show_audio": "觸發音效"
+		},
+		"Dialogue_VrUpload(Clone)":
+		{
+			"vr_upload_check_btn": "確定",
+			"vr_upload_upload_btn": "電腦上傳",
+			"vr_upload_image_title": "顯示圖片",
+			"vr_upload_model_title": "顯示3D模型",
+			"vr_upload_video_title": "顯示影片",
+			"vr_upload_audio_title": "觸發音效"
+		},
+		"Behav_TriggerEventSceneChange(Clone)":
+		{
+			"behav_title": "場景轉換",
+			"behav_none": "無",
+			"behav_delay_show": "延遲顯示",
+			"behav_immediate_show": "即時顯示"
+		},
+		"Behav_TriggerEventWeb(Clone)":
+		{
+			"behav_title": "觸發網頁",
+			"behav_inputfield_url": "輸入網址",
+		},
+		"Behav_TriggerEventImage(Clone)":
+		{
+			"behav_title": "觸發圖片",
+			"behav_delay_show": "延遲顯示",
+			"behav_immediate_show": "即時顯示"
+		},
+		"Behav_TriggerEventModel(Clone)":
+		{
+			"behav_title": "觸發模型",
+			"behav_delay_show": "延遲顯示",
+			"behav_immediate_show": "即時顯示"
+		},
+		"Behav_TriggerEventVideo(Clone)":
+		{
+			"behav_title": "觸發影片",
+			"behav_delay_show": "延遲顯示",
+			"behav_immediate_show": "即時顯示",
+			"behav_auto_play": "自動播放",
+			"behav_click_play": "點擊播放"
+		},
+		"Behav_TriggerEventMusic(Clone)":
+		{
+			"behav_title": "觸發音效",
+			"behav_delay_show": "延遲顯示",
+			"behav_immediate_show": "即時顯示",
+			"behav_auto_play": "自動播放",
+			"behav_click_play": "點擊播放"
+		},
+		"Dialogue_AddNewProject_VR(Clone)":
+		{
+			"dialogue_title": "儲存專案",
+			"dialogue_content": "按下「儲存並發布」\n立即開啟MAKAR APP體驗擴增實境",
+			"cancel_btn": "取消",
+			"save_btn": "儲存",
+			"post_on_news_label": "公開至APP動態頁面",
+			"loading_title": "資料處理中"
+		},
+		"Dialogue_SceneDelete(Clone)":
+		{
+			"dialogue_title": "刪除場景",
+			"dialogue_content": "確定要刪除嗎？",
+			"cancel_btn": "取消",
+			"exit_btn": "刪除",
+			"loading_title": "資料處理中"
+		},
+	}
+}

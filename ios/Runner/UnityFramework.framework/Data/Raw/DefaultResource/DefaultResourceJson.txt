@@ -1,0 +1,11 @@
+{
+  "DefaultResource": [
+    {
+      "res_name": "ScratchCardBackground",
+      "res_id": "ScratchCardBackground",
+      "main_type": "image",
+      "sub_type": "png",
+      "res_url": "DefaultResource/ProjectModule/ScratchCardBackground.png"
+    }
+  ]
+}
