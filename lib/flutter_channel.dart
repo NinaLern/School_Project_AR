@@ -16,6 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
   static const platform = const MethodChannel('makarChannel.dev');
 
 // // Get battery level.
+  String _batteryLevel = 'Unknown battery level.';
 
   Future<Null> _getBatteryLevel() async {
     var channel = MethodChannel('makarChannel.dev');
@@ -27,28 +28,27 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  @override
-  void initState() {
-    super.initState();
-    _getBatteryLevel();
-  }
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   _getBatteryLevel();
+  // }
 
   @override
   Widget build(BuildContext context) {
-    return Container();
-    // Material(
-    //   child: Center(
-    //     child: Column(
-    //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-    //       children: [
-    //         RaisedButton(
-    //           child: const Text('Get Battery Level'),
-    //           onPressed: _getBatteryLevel,
-    //         ),
-    //         Text(_batteryLevel),
-    //       ],
-    //     ),
-    //   ),
-    // );
+    return Material(
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            RaisedButton(
+              child: const Text('Get Battery Level'),
+              onPressed: _getBatteryLevel,
+            ),
+            Text(_batteryLevel),
+          ],
+        ),
+      ),
+    );
   }
 }
