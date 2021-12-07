@@ -13,40 +13,42 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  static const platform = const MethodChannel('samples.flutter.io/battery');
+  static const platform = const MethodChannel('makarChannel.dev');
 
-// Get battery level.
-  String _batteryLevel = 'Unknown battery level.';
+// // Get battery level.
 
   Future<Null> _getBatteryLevel() async {
-    String batteryLevel;
+    var channel = MethodChannel('makarChannel.dev');
     try {
-      final int result = await platform.invokeMethod('getBatteryLevel');
-      batteryLevel = 'Battery level at $result % .';
+      print("start");
+      await channel.invokeMethod('getBatteryLevel');
     } on PlatformException catch (e) {
-      batteryLevel = "Failed to get battery level: '${e.message}'.";
+      print(e.toString());
     }
+  }
 
-    setState(() {
-      _batteryLevel = batteryLevel;
-    });
+  @override
+  void initState() {
+    super.initState();
+    _getBatteryLevel();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            RaisedButton(
-              child: const Text('Get Battery Level'),
-              onPressed: _getBatteryLevel,
-            ),
-            Text(_batteryLevel),
-          ],
-        ),
-      ),
-    );
+    return Container();
+    // Material(
+    //   child: Center(
+    //     child: Column(
+    //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    //       children: [
+    //         RaisedButton(
+    //           child: const Text('Get Battery Level'),
+    //           onPressed: _getBatteryLevel,
+    //         ),
+    //         Text(_batteryLevel),
+    //       ],
+    //     ),
+    //   ),
+    // );
   }
 }

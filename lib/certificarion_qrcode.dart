@@ -81,16 +81,17 @@ class _QRViewExampleState extends State<QRViewExample> {
       body: Column(
         children: <Widget>[
           Expanded(flex: 4, child: _buildQrView(context)),
-          Expanded(
-            flex: 1,
-            child: FittedBox(
-              fit: BoxFit.contain,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: children,
-              ),
-            ),
-          )
+          // Expanded(
+          //   flex: 1,
+          //   child:
+          //   FittedBox(
+          //     fit: BoxFit.contain,
+          //     child: Column(
+          //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          //       children: children,
+          //     ),
+          //   ),
+          // )
         ],
       ),
     );

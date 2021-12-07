@@ -1,68 +1,68 @@
 import UIKit
 import Flutter
 
-//@UIApplicationMain
-//@objc class AppDelegate: FlutterAppDelegate {
-//  override func application(
-//    _ application: UIApplication,
-//    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-//  ) -> Bool {
-//    GeneratedPluginRegistrant.register(with: self)
-//    return super.application(application, didFinishLaunchingWithOptions: launchOptions)
-//  }
-//}
-
-
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
+@objc class AppDelegate: FlutterAppDelegate {
     
-    var window: UIWindow?
     var orientationLock = UIInterfaceOrientationMask.all
-
+    
     let MAKAR_API_KEY = "00000000-0000-0000-0000-000000000000"
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    override func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
         
-        setupMakar()
         
-        return true
+        GeneratedPluginRegistrant.register(with: self)
+        
+        
+        let controller = window?.rootViewController as! FlutterViewController
+        let channel = FlutterMethodChannel(name: "makarChannel.dev", binaryMessenger: controller.binaryMessenger)
+        channel.setMethodCallHandler({
+            (call: FlutterMethodCall, result: FlutterResult) -> Void in
+            if (call.method == "getBatteryLevel") {
+                self.setupMakar()
+            } else {
+                result(FlutterMethodNotImplemented);
+            }
+        });
+        
+        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
-
     
-    func applicationWillResignActive(_ application: UIApplication) {
-        MakarViewerManager.shared()?.applicationWillResignActive(application)
+    override func applicationWillResignActive(_ application: UIApplication) {
+            MakarViewerManager.shared()?.applicationWillResignActive(application)
     }
     
-    func applicationDidEnterBackground(_ application: UIApplication) {
+    override func applicationDidEnterBackground(_ application: UIApplication) {
         MakarViewerManager.shared()?.applicationDidEnterBackground(application)
     }
     
-    func applicationWillEnterForeground(_ application: UIApplication) {
+    override func applicationWillEnterForeground(_ application: UIApplication) {
         MakarViewerManager.shared()?.applicationWillEnterForeground(application)
     }
     
-    func applicationDidBecomeActive(_ application: UIApplication) {
+    override func applicationDidBecomeActive(_ application: UIApplication) {
         MakarViewerManager.shared()?.applicationDidBecomeActive(application)
     }
     
-    func applicationWillTerminate(_ application: UIApplication) {
+    override func applicationWillTerminate(_ application: UIApplication) {
         MakarViewerManager.shared()?.applicationWillTerminate(application)
     }
-
     func setupMakar(){
+        print("setup")
         MakarViewerManager.shared().initialized(withKey: MAKAR_API_KEY,
                                                 window: self.window,
                                                 appLaunchOpts: [:],
                                                 gArgc: CommandLine.argc,
                                                 gArgv: CommandLine.unsafeArgv)
-
+        
     }
     
-    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+    override func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
         return self.orientationLock
     }
-        
+    
     struct AppUtility {
         
         static func lockOrientation(_ orientation: UIInterfaceOrientationMask,
@@ -76,8 +76,77 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 delegate.orientationLock = orientation
             }
         }
-
     }
-
-
+    
+    
+    //@main
+    //    class Makar: UIResponder, UIApplicationDelegate {
+    //
+    //        var window: UIWindow?
+    //        var orientationLock = UIInterfaceOrientationMask.all
+    //
+    //        let MAKAR_API_KEY = "00000000-0000-0000-0000-000000000000"
+    //
+    //        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    //            // Override point for customization after application launch.
+    //
+    //
+    //            setupMakar()
+    //
+    //            return true
+    //        }
+    //
+    //
+    //
+    //        func applicationWillResignActive(_ application: UIApplication) {
+    //            MakarViewerManager.shared()?.applicationWillResignActive(application)
+    //        }
+    //
+    //        func applicationDidEnterBackground(_ application: UIApplication) {
+    //            MakarViewerManager.shared()?.applicationDidEnterBackground(application)
+    //        }
+    //
+    //        func applicationWillEnterForeground(_ application: UIApplication) {
+    //            MakarViewerManager.shared()?.applicationWillEnterForeground(application)
+    //        }
+    //
+    //        func applicationDidBecomeActive(_ application: UIApplication) {
+    //            MakarViewerManager.shared()?.applicationDidBecomeActive(application)
+    //        }
+    //
+    //        func applicationWillTerminate(_ application: UIApplication) {
+    //            MakarViewerManager.shared()?.applicationWillTerminate(application)
+    //        }
+    //
+    //        func setupMakar(){
+    //            MakarViewerManager.shared().initialized(withKey: MAKAR_API_KEY,
+    //                                                    window: self.window,
+    //                                                    appLaunchOpts: [:],
+    //                                                    gArgc: CommandLine.argc,
+    //                                                    gArgv: CommandLine.unsafeArgv)
+    //
+    //        }
+    //
+    //        func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+    //            return self.orientationLock
+    //        }
+    //
+    //        struct AppUtility {
+    //
+    //            static func lockOrientation(_ orientation: UIInterfaceOrientationMask,
+    //                                        andRotateTo rotateOrientation:UIInterfaceOrientation) {
+    //                self.lockOrientation(orientation)
+    //                UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
+    //            }
+    //
+    //            static func lockOrientation(_ orientation: UIInterfaceOrientationMask) {
+    //                if let delegate = UIApplication.shared.delegate as? Makar {
+    //                    delegate.orientationLock = orientation
+    //                }
+    //            }
+    //
+    //        }
+    //
+    //
+    //    }
 }
