@@ -21,7 +21,7 @@ class _ExhibitionWidgetCity extends State<ExhibitionWidgetCity> {
       hint: Container(
         alignment: Alignment.center,
         child: const Text(
-          '請選擇',
+          '點擊並選擇',
         ),
       ),
       value: dropdownValue,

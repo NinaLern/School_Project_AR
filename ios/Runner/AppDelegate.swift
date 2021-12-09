@@ -58,9 +58,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-                view.backgroundColor = .yellow
-        view.isOpaque = false
-        MakarViewerManager.shared()?.delegate = self
+//                view.backgroundColor = .yellow
+//        view.isOpaque = false
+//        MakarViewerManager.shared()?.delegate = self
+        let projectId = "28e9b858ba16d27b5766e3193003217c"
+//        28e9b858ba16d27b5766e3193003217c //說明
+//        13e96c02bf961e1bc3811627a7e89013 //方向
+        print("1")
+        MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR)
     }
     
     @IBAction
@@ -72,18 +77,21 @@ class ViewController: UIViewController {
     @IBAction
     func btnEnterARSlam(){
         let projectId = "ca6e231b9bde8183dc8f208ab619055a"
+        print("2")
         MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR_SLAM)
     }
     
     @IBAction
     func btnEnterVR(){
         let projectId = "52703099ec9adea8e12a8016b16b75e5"
+        print("3")
         MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .VR)
     }
     
     @IBAction
     func btnOpenUserTap(){
         let userAccount = "Makarvr"
+        print("4")
         MakarViewerManager.shared()?.showUser(with: userAccount)
     }
     

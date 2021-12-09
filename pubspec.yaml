@@ -75,6 +75,10 @@ flutter:
     - assets/images/qrcodescan.png
     - assets/images/password.png
     - assets/fake_jsons/exhibition.json
+    - assets/images/Exhibition1.jpeg
+    - assets/images/Exhibition2.jpeg
+    - assets/images/detail1.jpeg
+    - assets/images/detail2.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

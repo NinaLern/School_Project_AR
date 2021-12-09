@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'flutter_channel.dart';
 
@@ -46,6 +47,7 @@ class _QRViewExampleState extends State<QRViewExample> {
   Barcode? result;
   QRViewController? controller;
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
+  var code = "";
 
   // In order to get hot reload to work we need to pause the camera if the platform
   // is android, or resume the camera if the platform is iOS.
@@ -126,7 +128,11 @@ class _QRViewExampleState extends State<QRViewExample> {
       setState(() {
         result = scanData;
         if (result!.code == "55688") {
-          Navigator.of(context).push(_gotoChannel());
+          // Navigator.of(context).push(_gotoChannel());
+          if (code == "") {
+            code = "55688";
+            _getBatteryLevel();
+          }
         }
       });
     });
@@ -138,6 +144,16 @@ class _QRViewExampleState extends State<QRViewExample> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('no Permission')),
       );
+    }
+  }
+
+  Future<Null> _getBatteryLevel() async {
+    var channel = MethodChannel('makarChannel.dev');
+    try {
+      print("start");
+      await channel.invokeMethod('getBatteryLevel');
+    } on PlatformException catch (e) {
+      print(e.toString());
     }
   }
 

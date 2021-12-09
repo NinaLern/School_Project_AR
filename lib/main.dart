@@ -18,6 +18,8 @@ class Page1 extends StatelessWidget {
 
   get row => null;
 
+  get alignment => null;
+
   @override
   Widget build(BuildContext context) {
     // var name = "fff";
@@ -28,6 +30,8 @@ class Page1 extends StatelessWidget {
     var TYcountries = ["桃園區", "蘆竹區", "八德區"];
     var TCcountries = ["中區", "北區", "南區", "西區"];
     var TNcountris = ["七股區", "麻豆區", "安平區", "西區", "北區"];
+
+    var CountryAll = [TPcountries, TYcountries, TCcountries, TNcountris];
 
     var TNplace = ["國立台灣美術館", "台南市美術館", "永成文創跳蚤市集"];
 
@@ -213,13 +217,18 @@ class Page1 extends StatelessWidget {
                 )),
               ),
               const SizedBox(
-                height: 50,
-                child: Center(
+                  height: 80,
+                  child: Center(
                     child: Text(
-                  "請選擇你所要查詢的地點。",
-                  style: TextStyle(color: Colors.black54, fontSize: 20),
-                )),
-              ),
+                      "請選擇你所要查詢的地點 \n 或  點選直接進入！",
+                      style: TextStyle(
+                        color: Colors.black54,
+                        fontSize: 17,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  )),
+
               Container(
                 child:
                     Row(mainAxisAlignment: MainAxisAlignment.center, //對齊方式：平均間隔
@@ -237,20 +246,20 @@ class Page1 extends StatelessWidget {
                       //todo: GetX?
                     ]),
               ),
-              Row(mainAxisAlignment: MainAxisAlignment.center, //對齊方式：平均間隔
-                  children: [
-                    const Text('地區'),
-                    const SizedBox(
-                      width: 30,
-                    ),
-                    Container(
-                      child: ExhibitionWidgetCountry(
-                        countries: TNcountris,
-                      ),
-                      width: 180,
-                    ),
-                    //todo: GetX?
-                  ]),
+              // Row(mainAxisAlignment: MainAxisAlignment.center, //對齊方式：平均間隔
+              //     children: [
+              //       const Text('地區'),
+              //       const SizedBox(
+              //         width: 30,
+              //       ),
+              //       Container(
+              //         child: ExhibitionWidgetCountry(
+              //           countries: TCcountries,
+              //         ),
+              //         width: 180,
+              //       ),
+              //       //todo: GetX?
+              //     ]),
               Row(mainAxisAlignment: MainAxisAlignment.center, //對齊方式：平均間隔
                   children: [
                     const Text('展區'),
