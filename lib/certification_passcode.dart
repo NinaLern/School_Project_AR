@@ -32,7 +32,7 @@ class PressCodeTyping extends State<CertificationPressCodePage> {
 
   @override
   Widget build(BuildContext context) {
-    var _code = "";
+    var Vcode = "";
 
     return Scaffold(
       appBar: AppBar(
@@ -99,6 +99,7 @@ class PressCodeTyping extends State<CertificationPressCodePage> {
               onCompleted: (String value) {
                 setState(() {
                   _code = value;
+                  Vcode = _code;
                 });
               },
               onEditing: (bool value) {
@@ -119,12 +120,9 @@ class PressCodeTyping extends State<CertificationPressCodePage> {
             Container(
               child: ElevatedButton(
                 onPressed: () {
+                  print("3 $_code");
                   if (_code == "55688") {
-                    // Navigator.of(context).push(_gotoChannel());
-                    if (_code == "") {
-                      _code = "55688";
-                      _getBatteryLevel();
-                    }
+                    _getBatteryLevel();
                   }
                 },
                 style: ElevatedButton.styleFrom(

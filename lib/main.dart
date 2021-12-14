@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:makar_ios/scroll_test.dart';
 
 import 'mainpage_place.dart';
 import 'mainpage_city.dart';
-import 'mainpage_country.dart';
+import 'mainpage_city.dart';
 import 'exhitbitionpage.dart';
 
 void main() {
@@ -20,11 +21,13 @@ class Page1 extends StatelessWidget {
 
   get alignment => null;
 
+  get value => null;
+
   @override
   Widget build(BuildContext context) {
-    // var name = "fff";
-    // var names = ["fff",];
     var cities = ['台北市', '桃園市', '台中市', '台南市'];
+    var TCplace = ["國立台灣美術館", "民意街文創市集", "小蝸牛市集"];
+    var Allplace = ["台北當代藝術館", "國立台灣美術館", "民意街文創市集", "小蝸牛市集"];
 
     var TPcountries = ["中山區", "文山區", "大同區", "大安區"];
     var TYcountries = ["桃園區", "蘆竹區", "八德區"];
@@ -33,7 +36,14 @@ class Page1 extends StatelessWidget {
 
     var CountryAll = [TPcountries, TYcountries, TCcountries, TNcountris];
 
-    var TNplace = ["國立台灣美術館", "台南市美術館", "永成文創跳蚤市集"];
+    var place = Allplace;
+
+    List<Widget> FPlace = [];
+
+    if (DropdownButton == "台中市") {
+      print(value);
+      place == TCplace;
+    }
 
     // var exhitbtions = [
     //   {
@@ -268,7 +278,7 @@ class Page1 extends StatelessWidget {
                     ),
                     Container(
                       child: ExhibitionWidgetPlace(
-                        place: TNplace,
+                        place: place,
                       ),
                       width: 180,
                     ),
@@ -302,7 +312,8 @@ class Page1 extends StatelessWidget {
 Route _createRoute() {
   return PageRouteBuilder(
     pageBuilder: (context, animation, secondaryAnimation) =>
-        const Exhitbitionpage(),
+        // const Exhitbitionpage(),
+        const MyApp(),
     transitionsBuilder: (context, animation, secondaryAnimation, child) {
       const begin = Offset(1, 0);
       const end = Offset.zero;

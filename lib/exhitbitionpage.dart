@@ -197,6 +197,63 @@ class MyStatelessWidget extends StatelessWidget {
                 },
               ),
             ),
+            Card(
+              margin: const EdgeInsets.all(20),
+              shape: const RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(14.0))),
+              child: InkWell(
+                // radius: 100,
+                // splashColor: Colors.white.withAlpha(30),
+                child: Column(
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.all(20),
+                      decoration: const BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(14)),
+                        // color: Colors.white,
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/Exhibition2.jpeg'),
+                          fit: BoxFit.cover,
+                        ),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black12,
+                            offset: Offset(0, 5), //陰影位置
+                            blurRadius: 7, //模糊程度
+                            spreadRadius: 5, //陰影模糊大小
+                          )
+                        ],
+                      ),
+                      width: 350,
+                      height: 250,
+                      child: Column(
+                        children: [
+                          Container(
+                            padding: const EdgeInsets.only(
+                              top: 165,
+                            ),
+                          ),
+                          Container(
+                            decoration: const BoxDecoration(
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(5)),
+                              color: Colors.black54,
+                            ),
+                            width: 800,
+                            child: Column(
+                              children: children2,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+                onTap: () {
+                  Navigator.of(context).push(_createDetail2());
+                },
+              ),
+            ),
           ],
         ),
       ),

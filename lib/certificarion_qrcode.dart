@@ -64,20 +64,20 @@ class _QRViewExampleState extends State<QRViewExample> {
   Widget build(BuildContext context) {
     List<Widget> children = [];
 
-    if (result != null) {
-      print(result!.code);
-      if (result!.code == "55688") {
-        children.add(const Text(
-          '成功',
-          style: TextStyle(backgroundColor: Colors.transparent),
-        ));
-      } else {
-        children.add(const Text(
-          '錯誤的驗證碼',
-          style: TextStyle(backgroundColor: Colors.transparent),
-        ));
-      }
-    }
+    // if (result != null) {
+    //   print(result!.code);
+    //   if (result!.code == "55688") {
+    //     children.add(const Text(
+    //       '成功',
+    //       style: TextStyle(backgroundColor: Colors.transparent),
+    //     ));
+    //   } else {
+    //     children.add(const Text(
+    //       '錯誤的驗證碼',
+    //       style: TextStyle(backgroundColor: Colors.transparent),
+    //     ));
+    //   }
+    // }
 
     return Scaffold(
       body: Column(

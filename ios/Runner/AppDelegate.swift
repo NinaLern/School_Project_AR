@@ -61,11 +61,16 @@ class ViewController: UIViewController {
 //                view.backgroundColor = .yellow
 //        view.isOpaque = false
 //        MakarViewerManager.shared()?.delegate = self
-        let projectId = "28e9b858ba16d27b5766e3193003217c"
+        let projectId = ""
 //        28e9b858ba16d27b5766e3193003217c //說明
 //        13e96c02bf961e1bc3811627a7e89013 //方向
-        print("1")
-        MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR)
+        
+        if projectId == "28e9b858ba16d27b5766e3193003217c" {
+            MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR)
+        } else if projectId == "13e96c02bf961e1bc3811627a7e89013" {
+            MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR)
+        }
+//        MakarViewerManager.shared()?.showProject(withProjectId: projectId, type: .AR)
     }
     
     @IBAction
